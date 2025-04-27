@@ -5,6 +5,7 @@ edition = "2024"
 
 [lib]
 name = "neural_amp_modeler"
+path = "src/lib.rs"
 
 [dependencies]
 
