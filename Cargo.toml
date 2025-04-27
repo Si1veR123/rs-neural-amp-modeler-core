@@ -1,7 +1,10 @@
 [package]
-name = "neural-amp-modeller-core-bindgen"
+name = "neural-amp-modeler-core-bindgen"
 version = "0.1.0"
 edition = "2024"
+
+[lib]
+name = "neural-amp-modeler"
 
 [dependencies]
 
