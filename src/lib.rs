@@ -20,6 +20,10 @@ impl NeuralAmpModeler {
         })
     }
 
+    pub fn get_model_path(&self) -> Option<&str> {
+        self.model_path.as_ref().map(|s| s.as_str())
+    }
+
     pub fn set_model(&mut self, model_path: &str) -> Result<(), String> {
         let model_path_c = std::ffi::CString::new(model_path).unwrap();
         let model = unsafe { bindings::get_dsp_from_string_path(model_path_c.as_ptr()) };
@@ -64,3 +68,7 @@ impl NeuralAmpModeler {
         };
     }
 }
+
+// Pointer to heap can be shared between threads
+unsafe impl Send for NeuralAmpModeler {}
+unsafe impl Sync for NeuralAmpModeler {}
