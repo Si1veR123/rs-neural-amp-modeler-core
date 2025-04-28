@@ -10,227 +10,10 @@ impl<T: Copy + Default, const N: usize> Default for __BindgenOpaqueArray<T, N> {
         Self([<T as Default>::default(); N])
     }
 }
-pub const __glibcxx_incomplete_container_elements: u32 = 201505;
-pub const __glibcxx_uncaught_exceptions: u32 = 201411;
-pub const __glibcxx_allocator_traits_is_always_equal: u32 = 201411;
-pub const __glibcxx_is_null_pointer: u32 = 201309;
-pub const __glibcxx_result_of_sfinae: u32 = 201210;
-pub const __glibcxx_shared_ptr_arrays: u32 = 201611;
-pub const __glibcxx_is_swappable: u32 = 201603;
-pub const __glibcxx_void_t: u32 = 201411;
-pub const __glibcxx_enable_shared_from_this: u32 = 201603;
-pub const __glibcxx_math_spec_funcs: u32 = 201003;
-pub const __glibcxx_exchange_function: u32 = 201304;
-pub const __glibcxx_integer_sequence: u32 = 201304;
-pub const __glibcxx_integral_constant_callable: u32 = 201304;
-pub const __glibcxx_is_final: u32 = 201402;
-pub const __glibcxx_make_reverse_iterator: u32 = 201402;
-pub const __glibcxx_null_iterators: u32 = 201304;
-pub const __glibcxx_transformation_trait_aliases: u32 = 201304;
-pub const __glibcxx_transparent_operators: u32 = 201510;
-pub const __glibcxx_tuple_element_t: u32 = 201402;
-pub const __glibcxx_tuples_by_type: u32 = 201304;
-pub const __glibcxx_robust_nonmodifying_seq_ops: u32 = 201304;
-pub const __glibcxx_to_chars: u32 = 201611;
-pub const __glibcxx_chrono_udls: u32 = 201304;
-pub const __glibcxx_complex_udls: u32 = 201309;
-pub const __glibcxx_generic_associative_lookup: u32 = 201304;
-pub const __glibcxx_make_unique: u32 = 201304;
-pub const __glibcxx_quoted_string_io: u32 = 201304;
-pub const __glibcxx_shared_timed_mutex: u32 = 201402;
-pub const __glibcxx_string_udls: u32 = 201304;
-pub const __glibcxx_addressof_constexpr: u32 = 201603;
-pub const __glibcxx_any: u32 = 201606;
-pub const __glibcxx_apply: u32 = 201603;
-pub const __glibcxx_as_const: u32 = 201510;
-pub const __glibcxx_atomic_is_always_lock_free: u32 = 201603;
-pub const __glibcxx_bool_constant: u32 = 201505;
-pub const __glibcxx_byte: u32 = 201603;
-pub const __glibcxx_has_unique_object_representations: u32 = 201606;
-pub const __glibcxx_hardware_interference_size: u32 = 201703;
-pub const __glibcxx_invoke: u32 = 201411;
-pub const __glibcxx_is_aggregate: u32 = 201703;
-pub const __glibcxx_is_invocable: u32 = 201703;
-pub const __glibcxx_launder: u32 = 201606;
-pub const __glibcxx_logical_traits: u32 = 201510;
-pub const __glibcxx_make_from_tuple: u32 = 201606;
-pub const __glibcxx_not_fn: u32 = 201603;
-pub const __glibcxx_type_trait_variable_templates: u32 = 201510;
-pub const __glibcxx_variant: u32 = 202102;
-pub const __glibcxx_lcm: u32 = 201606;
-pub const __glibcxx_gcd: u32 = 201606;
-pub const __glibcxx_gcd_lcm: u32 = 201606;
-pub const __glibcxx_raw_memory_algorithms: u32 = 201606;
-pub const __glibcxx_array_constexpr: u32 = 201803;
-pub const __glibcxx_nonmember_container_access: u32 = 201411;
-pub const __glibcxx_clamp: u32 = 201603;
-pub const __glibcxx_sample: u32 = 201603;
-pub const __glibcxx_boyer_moore_searcher: u32 = 201603;
-pub const __glibcxx_chrono: u32 = 201611;
-pub const __glibcxx_execution: u32 = 201902;
-pub const __glibcxx_filesystem: u32 = 201703;
-pub const __cpp_lib_filesystem: u32 = 201703;
-pub const __glibcxx_hypot: u32 = 201603;
-pub const __glibcxx_map_try_emplace: u32 = 201411;
-pub const __glibcxx_math_special_functions: u32 = 201603;
-pub const __glibcxx_memory_resource: u32 = 201603;
-pub const __glibcxx_node_extract: u32 = 201606;
-pub const __glibcxx_parallel_algorithm: u32 = 201603;
-pub const __glibcxx_scoped_lock: u32 = 201703;
-pub const __glibcxx_shared_mutex: u32 = 201505;
-pub const __glibcxx_shared_ptr_weak_type: u32 = 201606;
-pub const __glibcxx_string_view: u32 = 201803;
-pub const __glibcxx_unordered_map_try_emplace: u32 = 201411;
-pub const __glibcxx_optional: u32 = 201606;
-pub const __glibcxx_constexpr_char_traits: u32 = 201611;
-pub const __glibcxx_constexpr_string: u32 = 201611;
-pub const __cpp_lib_uncaught_exceptions: u32 = 201411;
-pub const __cpp_lib_hardware_interference_size: u32 = 201703;
-pub const __cpp_lib_launder: u32 = 201606;
-pub const __cpp_lib_is_null_pointer: u32 = 201309;
-pub const __cpp_lib_result_of_sfinae: u32 = 201210;
-pub const __cpp_lib_is_swappable: u32 = 201603;
-pub const __cpp_lib_void_t: u32 = 201411;
-pub const __cpp_lib_integral_constant_callable: u32 = 201304;
-pub const __cpp_lib_is_final: u32 = 201402;
-pub const __cpp_lib_transformation_trait_aliases: u32 = 201304;
-pub const __cpp_lib_bool_constant: u32 = 201505;
-pub const __cpp_lib_has_unique_object_representations: u32 = 201606;
-pub const __cpp_lib_is_aggregate: u32 = 201703;
-pub const __cpp_lib_is_invocable: u32 = 201703;
-pub const __cpp_lib_logical_traits: u32 = 201510;
-pub const __cpp_lib_type_trait_variable_templates: u32 = 201510;
-pub const __cpp_lib_string_view: u32 = 201803;
-pub const __cpp_lib_constexpr_char_traits: u32 = 201611;
-pub const __cpp_lib_string_udls: u32 = 201304;
-pub const __cpp_lib_nonmember_container_access: u32 = 201411;
-pub const __cpp_lib_constexpr_string: u32 = 201611;
-pub const __cpp_lib_byte: u32 = 201603;
-pub const __cpp_lib_tuple_element_t: u32 = 201402;
-pub const __cpp_lib_tuples_by_type: u32 = 201304;
-pub const __cpp_lib_apply: u32 = 201603;
-pub const __cpp_lib_make_from_tuple: u32 = 201606;
-pub const __cpp_lib_quoted_string_io: u32 = 201304;
-pub const __cpp_lib_make_reverse_iterator: u32 = 201402;
-pub const __cpp_lib_null_iterators: u32 = 201304;
-pub const __cpp_lib_array_constexpr: u32 = 201803;
-pub const __cpp_lib_allocator_traits_is_always_equal: u32 = 201411;
-pub const __cpp_lib_shared_ptr_arrays: u32 = 201611;
-pub const __cpp_lib_enable_shared_from_this: u32 = 201603;
-pub const __cpp_lib_transparent_operators: u32 = 201510;
-pub const __cpp_lib_make_unique: u32 = 201304;
-pub const __cpp_lib_raw_memory_algorithms: u32 = 201606;
-pub const __cpp_lib_parallel_algorithm: u32 = 201603;
-pub const __cpp_lib_shared_ptr_weak_type: u32 = 201606;
-pub const __cpp_lib_node_extract: u32 = 201606;
-pub const __cpp_lib_unordered_map_try_emplace: u32 = 201411;
-pub const __cpp_lib_incomplete_container_elements: u32 = 201505;
-pub const __cpp_lib_hypot: u32 = 201603;
-pub const __STDCPP_MATH_SPEC_FUNCS__: u32 = 201003;
-pub const __cpp_lib_math_special_functions: u32 = 201603;
-pub const _GLIBCXX_TR1_SPECIAL_FUNCTION_UTIL_H: u32 = 1;
-pub const __cpp_lib_complex_udls: u32 = 201309;
-pub const __cpp_lib_invoke: u32 = 201411;
-pub const __cpp_lib_not_fn: u32 = 201603;
-pub const __cpp_lib_boyer_moore_searcher: u32 = 201603;
-pub const __cpp_lib_robust_nonmodifying_seq_ops: u32 = 201304;
-pub const __cpp_lib_clamp: u32 = 201603;
-pub const __cpp_lib_sample: u32 = 201603;
-pub const __cpp_lib_lcm: u32 = 201606;
-pub const __cpp_lib_gcd: u32 = 201606;
-pub const __cpp_lib_gcd_lcm: u32 = 201606;
-pub const __cpp_lib_exchange_function: u32 = 201304;
-pub const __cpp_lib_integer_sequence: u32 = 201304;
-pub const __cpp_lib_addressof_constexpr: u32 = 201603;
-pub const __cpp_lib_as_const: u32 = 201510;
-pub const __cpp_lib_generic_associative_lookup: u32 = 201304;
-pub const __cpp_lib_map_try_emplace: u32 = 201411;
 pub const NAM_UNKNOWN_EXPECTED_SAMPLE_RATE: f64 = -1.0;
 pub const NEURAL_AMP_MODELER_DSP_VERSION_MAJOR: u32 = 0;
 pub const NEURAL_AMP_MODELER_DSP_VERSION_MINOR: u32 = 3;
 pub const NEURAL_AMP_MODELER_DSP_VERSION_PATCH: u32 = 0;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_basic_string {
-    pub _address: u8,
-}
-pub type std_basic_string__Char_alloc_type = u8;
-pub type std_basic_string__Alloc_traits = u8;
-pub type std_basic_string_traits_type = u8;
-pub type std_basic_string_value_type = u8;
-pub type std_basic_string_allocator_type = u8;
-pub type std_basic_string_size_type = u8;
-pub type std_basic_string_difference_type = u8;
-pub type std_basic_string_reference = u8;
-pub type std_basic_string_const_reference = u8;
-pub type std_basic_string_pointer = u8;
-pub type std_basic_string_const_pointer = u8;
-pub type std_basic_string_iterator = u8;
-pub type std_basic_string_const_iterator = u8;
-pub type std_basic_string_const_reverse_iterator = u8;
-pub type std_basic_string_reverse_iterator = u8;
-pub type std_basic_string___const_iterator = u8;
-pub type std_basic_string___sv_type = u8;
-pub type std_basic_string__If_sv = u8;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_basic_string___sv_wrapper {
-    pub _address: u8,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_basic_string__Alloc_hider {
-    pub _address: u8,
-}
-pub const std_basic_string__S_local_capacity: std_basic_string__bindgen_ty_1 = 0;
-pub type std_basic_string__bindgen_ty_1 = i32;
-#[repr(C)]
-#[repr(align(8))]
-#[derive(Copy, Clone)]
-pub union std_basic_string__bindgen_ty_2 {
-    pub _bindgen_opaque_blob: u64,
-}
-pub type std_string = __BindgenOpaqueArray<u64, 4usize>;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std___detail___floating_point_constant {
-    pub _address: u8,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std___detail___numeric_constants {
-    pub _address: u8,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_char_traits {
-    pub _address: u8,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_allocator {
-    pub _address: u8,
-}
-pub type std_allocator_value_type = u8;
-pub type std_allocator_size_type = u64;
-pub type std_allocator_difference_type = u64;
-pub type std_allocator_pointer = u8;
-pub type std_allocator_const_pointer = u8;
-pub type std_allocator_reference = u8;
-pub type std_allocator_const_reference = u8;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_allocator_rebind {
-    pub _address: u8,
-}
-pub type std_allocator_rebind_other = u8;
-pub type std_allocator_propagate_on_container_move_assignment = u8;
-pub type std_allocator_is_always_equal = u8;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_equal_to {
-    pub _address: u8,
-}
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct std_pair {
@@ -238,529 +21,77 @@ pub struct std_pair {
 }
 pub type std_pair_first_type = u8;
 pub type std_pair_second_type = u8;
-pub type std_pair__PCCP = u8;
-pub type std_pair__PCCFP = u8;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct std_pair___zero_as_null_pointer_constant {
+pub struct std_equal_to {
+    pub _address: u8,
+}
+pub type std_equal_to__Unnameable_first_argument = u8;
+pub type std_equal_to__Unnameable_second_argument = u8;
+pub type std_equal_to__Unnameable_result = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std__Simple_types {
+    pub _address: u8,
+}
+pub type std__Simple_types_value_type = u8;
+pub type std__Simple_types_size_type = u64;
+pub type std__Simple_types_difference_type = u64;
+pub type std__Simple_types_pointer = u8;
+pub type std__Simple_types_const_pointer = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std_allocator {
+    pub _address: u8,
+}
+pub type std_allocator__From_primary = u8;
+pub type std_allocator_value_type = u8;
+pub type std_allocator_size_type = u64;
+pub type std_allocator_difference_type = u64;
+pub type std_allocator_propagate_on_container_move_assignment = u8;
+pub type std_allocator_is_always_equal = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std_char_traits {
     pub _address: u8,
 }
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct std_basic_string_view {
+pub struct std_basic_string {
     pub _address: u8,
 }
-pub type std_basic_string_view_traits_type = u8;
-pub type std_basic_string_view_value_type = u8;
-pub type std_basic_string_view_pointer = u8;
-pub type std_basic_string_view_const_pointer = u8;
-pub type std_basic_string_view_reference = u8;
-pub type std_basic_string_view_const_reference = u8;
-pub type std_basic_string_view_const_iterator = u8;
-pub type std_basic_string_view_iterator = u8;
-pub type std_basic_string_view_const_reverse_iterator = u8;
-pub type std_basic_string_view_reverse_iterator = u8;
-pub type std_basic_string_view_size_type = u64;
-pub type std_basic_string_view_difference_type = u64;
-#[repr(C)]
-#[repr(align(8))]
-#[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path {
-    pub _bindgen_opaque_blob: [u64; 5usize],
-}
-pub type std_filesystem_path_value_type = u16;
-pub type std_filesystem_path_string_type = __BindgenOpaqueArray<u64, 4usize>;
-pub const std_filesystem_path_format_native_format: std_filesystem_path_format = 0;
-pub const std_filesystem_path_format_generic_format: std_filesystem_path_format = 1;
-pub const std_filesystem_path_format_auto_format: std_filesystem_path_format = 2;
-pub type std_filesystem_path_format = ::std::os::raw::c_uchar;
-pub type std_filesystem_path_const_iterator = __BindgenOpaqueArray<u64, 3usize>;
-pub const std_filesystem_path__Type__Multi: std_filesystem_path__Type = 0;
-pub const std_filesystem_path__Type__Root_name: std_filesystem_path__Type = 1;
-pub const std_filesystem_path__Type__Root_dir: std_filesystem_path__Type = 2;
-pub const std_filesystem_path__Type__Filename: std_filesystem_path__Type = 3;
-pub type std_filesystem_path__Type = ::std::os::raw::c_uchar;
-pub const std_filesystem_path__Split__Stem: std_filesystem_path__Split = 0;
-pub const std_filesystem_path__Split__Extension: std_filesystem_path__Split = 1;
-pub type std_filesystem_path__Split = ::std::os::raw::c_int;
-#[repr(C)]
-#[repr(align(8))]
-#[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path__List {
-    pub _bindgen_opaque_blob: u64,
-}
-pub type std_filesystem_path__List_value_type = __BindgenOpaqueArray<u64, 6usize>;
-pub type std_filesystem_path__List_iterator = u64;
-pub type std_filesystem_path__List_const_iterator = u64;
+pub type std_basic_string__Alty = u8;
+pub type std_basic_string__Alty_traits = u8;
+pub type std_basic_string__Scary_val = u8;
+pub type std_basic_string_traits_type = u8;
+pub type std_basic_string_allocator_type = u8;
+pub type std_basic_string_value_type = u8;
+pub type std_basic_string_size_type = u8;
+pub type std_basic_string_difference_type = u8;
+pub type std_basic_string_pointer = u8;
+pub type std_basic_string_const_pointer = u8;
+pub type std_basic_string_reference = u8;
+pub type std_basic_string_const_reference = u8;
+pub type std_basic_string_iterator = u8;
+pub type std_basic_string_const_iterator = u8;
+pub type std_basic_string_reverse_iterator = u8;
+pub type std_basic_string_const_reverse_iterator = u8;
+pub type std_basic_string__Is_elem_cptr = u8;
+pub type std_basic_string__Is_string_view_ish = u8;
+pub const std_basic_string__Allocation_policy__At_least: std_basic_string__Allocation_policy = 0;
+pub const std_basic_string__Allocation_policy__Exactly: std_basic_string__Allocation_policy = 0;
+pub type std_basic_string__Allocation_policy = ::std::os::raw::c_int;
+pub const std_basic_string__Construct_strategy__From_char: std_basic_string__Construct_strategy = 0;
+pub const std_basic_string__Construct_strategy__From_ptr: std_basic_string__Construct_strategy = 0;
+pub const std_basic_string__Construct_strategy__From_string: std_basic_string__Construct_strategy =
+    0;
+pub type std_basic_string__Construct_strategy = ::std::os::raw::c_uchar;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path__List__Impl {
-    _unused: [u8; 0],
-}
-#[repr(C)]
-#[repr(align(1))]
-#[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path__List__Impl_deleter {
-    pub _bindgen_opaque_blob: u8,
-}
-#[allow(clippy::unnecessary_operation, clippy::identity_op)]
-const _: () = {
-    ["Size of std_filesystem_path__List__Impl_deleter"]
-        [::std::mem::size_of::<std_filesystem_path__List__Impl_deleter>() - 1usize];
-    ["Alignment of std_filesystem_path__List__Impl_deleter"]
-        [::std::mem::align_of::<std_filesystem_path__List__Impl_deleter>() - 1usize];
-};
-#[allow(clippy::unnecessary_operation, clippy::identity_op)]
-const _: () = {
-    ["Size of std_filesystem_path__List"]
-        [::std::mem::size_of::<std_filesystem_path__List>() - 8usize];
-    ["Alignment of std_filesystem_path__List"]
-        [::std::mem::align_of::<std_filesystem_path__List>() - 8usize];
-};
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List4typeENS1_5_TypeE"]
-    pub fn std_filesystem_path__List_type(
-        this: *mut std_filesystem_path__List,
-        arg1: std_filesystem_path__Type,
-    );
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path5_List4sizeEv"]
-    pub fn std_filesystem_path__List_size(
-        this: *const std_filesystem_path__List,
-    ) -> ::std::os::raw::c_int;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path5_List5emptyEv"]
-    pub fn std_filesystem_path__List_empty(this: *const std_filesystem_path__List) -> bool;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List5clearEv"]
-    pub fn std_filesystem_path__List_clear(this: *mut std_filesystem_path__List);
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path5_List8capacityEv"]
-    pub fn std_filesystem_path__List_capacity(
-        this: *const std_filesystem_path__List,
-    ) -> ::std::os::raw::c_int;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List7reserveEib"]
-    pub fn std_filesystem_path__List_reserve(
-        this: *mut std_filesystem_path__List,
-        arg1: ::std::os::raw::c_int,
-        arg2: bool,
-    );
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List5beginEv"]
-    pub fn std_filesystem_path__List_begin(
-        this: *mut std_filesystem_path__List,
-    ) -> std_filesystem_path__List_iterator;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List3endEv"]
-    pub fn std_filesystem_path__List_end(
-        this: *mut std_filesystem_path__List,
-    ) -> std_filesystem_path__List_iterator;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path5_List5beginEv"]
-    pub fn std_filesystem_path__List_begin1(
-        this: *const std_filesystem_path__List,
-    ) -> std_filesystem_path__List_const_iterator;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path5_List3endEv"]
-    pub fn std_filesystem_path__List_end1(
-        this: *const std_filesystem_path__List,
-    ) -> std_filesystem_path__List_const_iterator;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List5frontEv"]
-    pub fn std_filesystem_path__List_front(
-        this: *mut std_filesystem_path__List,
-    ) -> *mut std_filesystem_path__List_value_type;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List4backEv"]
-    pub fn std_filesystem_path__List_back(
-        this: *mut std_filesystem_path__List,
-    ) -> *mut std_filesystem_path__List_value_type;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path5_List5frontEv"]
-    pub fn std_filesystem_path__List_front1(
-        this: *const std_filesystem_path__List,
-    ) -> *const std_filesystem_path__List_value_type;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path5_List4backEv"]
-    pub fn std_filesystem_path__List_back1(
-        this: *const std_filesystem_path__List,
-    ) -> *const std_filesystem_path__List_value_type;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List8pop_backEv"]
-    pub fn std_filesystem_path__List_pop_back(this: *mut std_filesystem_path__List);
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_List13_M_erase_fromEPKNS1_5_CmptE"]
-    pub fn std_filesystem_path__List__M_erase_from(
-        this: *mut std_filesystem_path__List,
-        __pos: std_filesystem_path__List_const_iterator,
-    );
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_ListC1Ev"]
-    pub fn std_filesystem_path__List__List(this: *mut std_filesystem_path__List);
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_ListC1ERKS2_"]
-    pub fn std_filesystem_path__List__List1(
-        this: *mut std_filesystem_path__List,
-        arg1: *const std_filesystem_path__List,
-    );
-}
-impl std_filesystem_path__List {
-    #[inline]
-    pub unsafe fn type_(&mut self, arg1: std_filesystem_path__Type) {
-        std_filesystem_path__List_type(self, arg1)
-    }
-    #[inline]
-    pub unsafe fn size(&self) -> ::std::os::raw::c_int {
-        std_filesystem_path__List_size(self)
-    }
-    #[inline]
-    pub unsafe fn empty(&self) -> bool {
-        std_filesystem_path__List_empty(self)
-    }
-    #[inline]
-    pub unsafe fn clear(&mut self) {
-        std_filesystem_path__List_clear(self)
-    }
-    #[inline]
-    pub unsafe fn capacity(&self) -> ::std::os::raw::c_int {
-        std_filesystem_path__List_capacity(self)
-    }
-    #[inline]
-    pub unsafe fn reserve(&mut self, arg1: ::std::os::raw::c_int, arg2: bool) {
-        std_filesystem_path__List_reserve(self, arg1, arg2)
-    }
-    #[inline]
-    pub unsafe fn begin(&mut self) -> std_filesystem_path__List_iterator {
-        std_filesystem_path__List_begin(self)
-    }
-    #[inline]
-    pub unsafe fn end(&mut self) -> std_filesystem_path__List_iterator {
-        std_filesystem_path__List_end(self)
-    }
-    #[inline]
-    pub unsafe fn begin1(&self) -> std_filesystem_path__List_const_iterator {
-        std_filesystem_path__List_begin1(self)
-    }
-    #[inline]
-    pub unsafe fn end1(&self) -> std_filesystem_path__List_const_iterator {
-        std_filesystem_path__List_end1(self)
-    }
-    #[inline]
-    pub unsafe fn front(&mut self) -> *mut std_filesystem_path__List_value_type {
-        std_filesystem_path__List_front(self)
-    }
-    #[inline]
-    pub unsafe fn back(&mut self) -> *mut std_filesystem_path__List_value_type {
-        std_filesystem_path__List_back(self)
-    }
-    #[inline]
-    pub unsafe fn front1(&self) -> *const std_filesystem_path__List_value_type {
-        std_filesystem_path__List_front1(self)
-    }
-    #[inline]
-    pub unsafe fn back1(&self) -> *const std_filesystem_path__List_value_type {
-        std_filesystem_path__List_back1(self)
-    }
-    #[inline]
-    pub unsafe fn pop_back(&mut self) {
-        std_filesystem_path__List_pop_back(self)
-    }
-    #[inline]
-    pub unsafe fn _M_erase_from(&mut self, __pos: std_filesystem_path__List_const_iterator) {
-        std_filesystem_path__List__M_erase_from(self, __pos)
-    }
-    #[inline]
-    pub unsafe fn new() -> Self {
-        let mut __bindgen_tmp = ::std::mem::MaybeUninit::uninit();
-        std_filesystem_path__List__List(__bindgen_tmp.as_mut_ptr());
-        __bindgen_tmp.assume_init()
-    }
-    #[inline]
-    pub unsafe fn new1(arg1: *const std_filesystem_path__List) -> Self {
-        let mut __bindgen_tmp = ::std::mem::MaybeUninit::uninit();
-        std_filesystem_path__List__List1(__bindgen_tmp.as_mut_ptr(), arg1);
-        __bindgen_tmp.assume_init()
-    }
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path__Parser {
-    _unused: [u8; 0],
-}
-#[allow(clippy::unnecessary_operation, clippy::identity_op)]
-const _: () = {
-    ["Size of std_filesystem_path"][::std::mem::size_of::<std_filesystem_path>() - 40usize];
-    ["Alignment of std_filesystem_path"][::std::mem::align_of::<std_filesystem_path>() - 8usize];
-};
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path15remove_filenameEv"]
-    pub fn std_filesystem_path_remove_filename(
-        this: *mut std_filesystem_path,
-    ) -> *mut std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path16replace_filenameERKS1_"]
-    pub fn std_filesystem_path_replace_filename(
-        this: *mut std_filesystem_path,
-        __replacement: *const std_filesystem_path,
-    ) -> *mut std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path17replace_extensionERKS1_"]
-    pub fn std_filesystem_path_replace_extension(
-        this: *mut std_filesystem_path,
-        __replacement: *const std_filesystem_path,
-    ) -> *mut std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path7compareERKS1_"]
-    pub fn std_filesystem_path_compare(
-        this: *const std_filesystem_path,
-        __p: *const std_filesystem_path,
-    ) -> ::std::os::raw::c_int;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path7compareESt17basic_string_viewIwSt11char_traitsIwEE"]
-    pub fn std_filesystem_path_compare1(
-        this: *const std_filesystem_path,
-        __s: __BindgenOpaqueArray<u64, 2usize>,
-    ) -> ::std::os::raw::c_int;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path9root_nameEv"]
-    pub fn std_filesystem_path_root_name(this: *const std_filesystem_path) -> std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path14root_directoryEv"]
-    pub fn std_filesystem_path_root_directory(
-        this: *const std_filesystem_path,
-    ) -> std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path9root_pathEv"]
-    pub fn std_filesystem_path_root_path(this: *const std_filesystem_path) -> std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path13relative_pathEv"]
-    pub fn std_filesystem_path_relative_path(
-        this: *const std_filesystem_path,
-    ) -> std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path11parent_pathEv"]
-    pub fn std_filesystem_path_parent_path(this: *const std_filesystem_path)
-        -> std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path13has_root_nameEv"]
-    pub fn std_filesystem_path_has_root_name(this: *const std_filesystem_path) -> bool;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path18has_root_directoryEv"]
-    pub fn std_filesystem_path_has_root_directory(this: *const std_filesystem_path) -> bool;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path13has_root_pathEv"]
-    pub fn std_filesystem_path_has_root_path(this: *const std_filesystem_path) -> bool;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path17has_relative_pathEv"]
-    pub fn std_filesystem_path_has_relative_path(this: *const std_filesystem_path) -> bool;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path15has_parent_pathEv"]
-    pub fn std_filesystem_path_has_parent_path(this: *const std_filesystem_path) -> bool;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path12has_filenameEv"]
-    pub fn std_filesystem_path_has_filename(this: *const std_filesystem_path) -> bool;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path16lexically_normalEv"]
-    pub fn std_filesystem_path_lexically_normal(
-        this: *const std_filesystem_path,
-    ) -> std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path18lexically_relativeERKS1_"]
-    pub fn std_filesystem_path_lexically_relative(
-        this: *const std_filesystem_path,
-        base: *const std_filesystem_path,
-    ) -> std_filesystem_path;
-}
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNKSt10filesystem7__cxx114path19lexically_proximateERKS1_"]
-    pub fn std_filesystem_path_lexically_proximate(
-        this: *const std_filesystem_path,
-        base: *const std_filesystem_path,
-    ) -> std_filesystem_path;
-}
-impl std_filesystem_path {
-    #[inline]
-    pub unsafe fn remove_filename(&mut self) -> *mut std_filesystem_path {
-        std_filesystem_path_remove_filename(self)
-    }
-    #[inline]
-    pub unsafe fn replace_filename(
-        &mut self,
-        __replacement: *const std_filesystem_path,
-    ) -> *mut std_filesystem_path {
-        std_filesystem_path_replace_filename(self, __replacement)
-    }
-    #[inline]
-    pub unsafe fn replace_extension(
-        &mut self,
-        __replacement: *const std_filesystem_path,
-    ) -> *mut std_filesystem_path {
-        std_filesystem_path_replace_extension(self, __replacement)
-    }
-    #[inline]
-    pub unsafe fn compare(&self, __p: *const std_filesystem_path) -> ::std::os::raw::c_int {
-        std_filesystem_path_compare(self, __p)
-    }
-    #[inline]
-    pub unsafe fn compare1(&self, __s: __BindgenOpaqueArray<u64, 2usize>) -> ::std::os::raw::c_int {
-        std_filesystem_path_compare1(self, __s)
-    }
-    #[inline]
-    pub unsafe fn root_name(&self) -> std_filesystem_path {
-        std_filesystem_path_root_name(self)
-    }
-    #[inline]
-    pub unsafe fn root_directory(&self) -> std_filesystem_path {
-        std_filesystem_path_root_directory(self)
-    }
-    #[inline]
-    pub unsafe fn root_path(&self) -> std_filesystem_path {
-        std_filesystem_path_root_path(self)
-    }
-    #[inline]
-    pub unsafe fn relative_path(&self) -> std_filesystem_path {
-        std_filesystem_path_relative_path(self)
-    }
-    #[inline]
-    pub unsafe fn parent_path(&self) -> std_filesystem_path {
-        std_filesystem_path_parent_path(self)
-    }
-    #[inline]
-    pub unsafe fn has_root_name(&self) -> bool {
-        std_filesystem_path_has_root_name(self)
-    }
-    #[inline]
-    pub unsafe fn has_root_directory(&self) -> bool {
-        std_filesystem_path_has_root_directory(self)
-    }
-    #[inline]
-    pub unsafe fn has_root_path(&self) -> bool {
-        std_filesystem_path_has_root_path(self)
-    }
-    #[inline]
-    pub unsafe fn has_relative_path(&self) -> bool {
-        std_filesystem_path_has_relative_path(self)
-    }
-    #[inline]
-    pub unsafe fn has_parent_path(&self) -> bool {
-        std_filesystem_path_has_parent_path(self)
-    }
-    #[inline]
-    pub unsafe fn has_filename(&self) -> bool {
-        std_filesystem_path_has_filename(self)
-    }
-    #[inline]
-    pub unsafe fn lexically_normal(&self) -> std_filesystem_path {
-        std_filesystem_path_lexically_normal(self)
-    }
-    #[inline]
-    pub unsafe fn lexically_relative(
-        &self,
-        base: *const std_filesystem_path,
-    ) -> std_filesystem_path {
-        std_filesystem_path_lexically_relative(self, base)
-    }
-    #[inline]
-    pub unsafe fn lexically_proximate(
-        &self,
-        base: *const std_filesystem_path,
-    ) -> std_filesystem_path {
-        std_filesystem_path_lexically_proximate(self, base)
-    }
-}
-pub const std_filesystem_path_preferred_separator: std_filesystem_path_value_type = 92;
-#[repr(C)]
-#[repr(align(8))]
-#[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path__Cmpt {
-    pub _bindgen_opaque_blob: [u64; 6usize],
-}
-#[allow(clippy::unnecessary_operation, clippy::identity_op)]
-const _: () = {
-    ["Size of std_filesystem_path__Cmpt"]
-        [::std::mem::size_of::<std_filesystem_path__Cmpt>() - 48usize];
-    ["Alignment of std_filesystem_path__Cmpt"]
-        [::std::mem::align_of::<std_filesystem_path__Cmpt>() - 8usize];
-};
-unsafe extern "C" {
-    #[link_name = "\u{1}_ZNSt10filesystem7__cxx114path5_CmptC1ESt17basic_string_viewIwSt11char_traitsIwEENS1_5_TypeEy"]
-    pub fn std_filesystem_path__Cmpt__Cmpt(
-        this: *mut std_filesystem_path__Cmpt,
-        __s: __BindgenOpaqueArray<u64, 2usize>,
-        __t: std_filesystem_path__Type,
-        __pos: usize,
-    );
-}
-impl std_filesystem_path__Cmpt {
-    #[inline]
-    pub unsafe fn new(
-        __s: __BindgenOpaqueArray<u64, 2usize>,
-        __t: std_filesystem_path__Type,
-        __pos: usize,
-    ) -> Self {
-        let mut __bindgen_tmp = ::std::mem::MaybeUninit::uninit();
-        std_filesystem_path__Cmpt__Cmpt(__bindgen_tmp.as_mut_ptr(), __s, __t, __pos);
-        __bindgen_tmp.assume_init()
-    }
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path__Codecvt {
+pub struct std_basic_string__Released_buffer {
     pub _address: u8,
 }
-#[repr(C)]
-#[repr(align(8))]
-#[derive(Debug, Copy, Clone)]
-pub struct std_filesystem_path_iterator {
-    pub _bindgen_opaque_blob: [u64; 3usize],
-}
-pub type std_filesystem_path_iterator_difference_type = u64;
-pub type std_filesystem_path_iterator_value_type = __BindgenOpaqueArray<u64, 5usize>;
-pub type std_filesystem_path_iterator_reference = __BindgenOpaqueArray<u64, 5usize>;
-pub type std_filesystem_path_iterator_pointer = u64;
-pub type std_filesystem_path_iterator_iterator_category = u8;
-#[allow(clippy::unnecessary_operation, clippy::identity_op)]
-const _: () = {
-    ["Size of std_filesystem_path_iterator"]
-        [::std::mem::size_of::<std_filesystem_path_iterator>() - 24usize];
-    ["Alignment of std_filesystem_path_iterator"]
-        [::std::mem::align_of::<std_filesystem_path_iterator>() - 8usize];
-};
+pub type std_string = __BindgenOpaqueArray<u64, 4usize>;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct std_default_delete {
@@ -771,23 +102,121 @@ pub struct std_default_delete {
 pub struct std_unique_ptr {
     pub _address: u8,
 }
-pub type std_unique_ptr__DeleterConstraint = u8;
 pub type std_unique_ptr_pointer = u8;
 pub type std_unique_ptr_element_type = u8;
 pub type std_unique_ptr_deleter_type = u8;
-pub type std_unique_ptr___safe_conversion_up = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std__Vector_iterator {
+    pub _address: u8,
+}
+pub type std__Vector_iterator__Mybase = u8;
+pub type std__Vector_iterator_iterator_concept = u8;
+pub type std__Vector_iterator_iterator_category = u8;
+pub type std__Vector_iterator_value_type = u8;
+pub type std__Vector_iterator_difference_type = u8;
+pub type std__Vector_iterator_pointer = u8;
+pub type std__Vector_iterator_reference = u8;
+pub type std__Vector_iterator__Prevent_inheriting_unwrap = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std__Vec_iter_types {
+    pub _address: u8,
+}
+pub type std__Vec_iter_types_value_type = u8;
+pub type std__Vec_iter_types_size_type = u8;
+pub type std__Vec_iter_types_difference_type = u8;
+pub type std__Vec_iter_types_pointer = u8;
+pub type std__Vec_iter_types_const_pointer = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std__Vector_val {
+    pub _address: u8,
+}
+pub type std__Vector_val_value_type = u8;
+pub type std__Vector_val_size_type = u8;
+pub type std__Vector_val_difference_type = u8;
+pub type std__Vector_val_pointer = u8;
+pub type std__Vector_val_const_pointer = u8;
+pub type std__Vector_val_reference = u8;
+pub type std__Vector_val_const_reference = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std_vector {
+    pub _address: u8,
+}
+pub type std_vector__Alty = u8;
+pub type std_vector__Alty_traits = u8;
+pub type std_vector_value_type = u8;
+pub type std_vector_allocator_type = u8;
+pub type std_vector_pointer = u8;
+pub type std_vector_const_pointer = u8;
+pub type std_vector_reference = u8;
+pub type std_vector_const_reference = u8;
+pub type std_vector_size_type = u8;
+pub type std_vector_difference_type = u8;
+pub type std_vector__Scary_val = u8;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std_vector__Reallocation_guard {
+    pub _address: u8,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std_vector__Simple_reallocation_guard {
+    pub _address: u8,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct std_vector__Vaporization_guard {
+    pub _address: u8,
+}
+pub type std_vector_iterator = u8;
+pub type std_vector_const_iterator = u8;
+pub type std_vector_reverse_iterator = u8;
+pub type std_vector_const_reverse_iterator = u8;
+pub const std_vector__Reallocation_policy__At_least: std_vector__Reallocation_policy = 0;
+pub const std_vector__Reallocation_policy__Exactly: std_vector__Reallocation_policy = 0;
+pub type std_vector__Reallocation_policy = ::std::os::raw::c_int;
+#[repr(C)]
+#[repr(align(8))]
+#[derive(Debug, Copy, Clone)]
+pub struct std_filesystem_path {
+    pub _bindgen_opaque_blob: [u64; 4usize],
+}
+pub type std_filesystem_path_value_type = u16;
+pub type std_filesystem_path_string_type = __BindgenOpaqueArray<u64, 4usize>;
+pub const std_filesystem_path_format_auto_format: std_filesystem_path_format = 0;
+pub const std_filesystem_path_format_native_format: std_filesystem_path_format = 1;
+pub const std_filesystem_path_format_generic_format: std_filesystem_path_format = 2;
+pub type std_filesystem_path_format = ::std::os::raw::c_int;
+pub type std_filesystem_path_iterator = __BindgenOpaqueArray<u64, 6usize>;
+pub type std_filesystem_path_const_iterator = __BindgenOpaqueArray<u64, 6usize>;
+#[allow(clippy::unnecessary_operation, clippy::identity_op)]
+const _: () = {
+    ["Size of std_filesystem_path"][::std::mem::size_of::<std_filesystem_path>() - 32usize];
+    ["Alignment of std_filesystem_path"][::std::mem::align_of::<std_filesystem_path>() - 8usize];
+};
+pub const std_filesystem_path_preferred_separator: u16 = 92;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct std_unordered_map {
     pub _address: u8,
 }
-pub type std_unordered_map__Hashtable = u8;
-pub type std_unordered_map_key_type = u8;
-pub type std_unordered_map_value_type = u8;
-pub type std_unordered_map_mapped_type = u8;
+pub type std_unordered_map__Mytraits = u8;
+pub type std_unordered_map__Mybase = u8;
+pub type std_unordered_map__Alnode = u8;
+pub type std_unordered_map__Alnode_traits = u8;
+pub type std_unordered_map__Nodeptr = u8;
+pub type std_unordered_map__Key_compare = u8;
 pub type std_unordered_map_hasher = u8;
+pub type std_unordered_map_key_type = u8;
+pub type std_unordered_map_mapped_type = u8;
 pub type std_unordered_map_key_equal = u8;
+pub type std_unordered_map_value_type = u8;
 pub type std_unordered_map_allocator_type = u8;
+pub type std_unordered_map_size_type = u8;
+pub type std_unordered_map_difference_type = u8;
 pub type std_unordered_map_pointer = u8;
 pub type std_unordered_map_const_pointer = u8;
 pub type std_unordered_map_reference = u8;
@@ -796,58 +225,11 @@ pub type std_unordered_map_iterator = u8;
 pub type std_unordered_map_const_iterator = u8;
 pub type std_unordered_map_local_iterator = u8;
 pub type std_unordered_map_const_local_iterator = u8;
-pub type std_unordered_map_size_type = u8;
-pub type std_unordered_map_difference_type = u8;
-pub type std_unordered_map_node_type = u8;
 pub type std_unordered_map_insert_return_type = u8;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_vector {
-    pub _address: u8,
-}
-pub type std_vector__Base = u8;
-pub type std_vector__Tp_alloc_type = u8;
-pub type std_vector__Alloc_traits = u8;
-pub type std_vector_value_type = u8;
-pub type std_vector_pointer = u8;
-pub type std_vector_const_pointer = u8;
-pub type std_vector_reference = u8;
-pub type std_vector_const_reference = u8;
-pub type std_vector_iterator = u8;
-pub type std_vector_const_iterator = u8;
-pub type std_vector_const_reverse_iterator = u8;
-pub type std_vector_reverse_iterator = u8;
-pub type std_vector_size_type = u64;
-pub type std_vector_difference_type = u64;
-pub type std_vector_allocator_type = u8;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct std_vector__Temporary_value {
-    pub _address: u8,
-}
-#[repr(C)]
-#[repr(align(1))]
-#[derive(Copy, Clone)]
-pub union std_vector__Temporary_value__Storage {
-    pub _bindgen_opaque_blob: u8,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct __gnu_cxx___normal_iterator {
-    pub _address: u8,
-}
-pub type __gnu_cxx___normal_iterator___traits_type = u8;
-pub type __gnu_cxx___normal_iterator___convertible_from = u8;
-pub type __gnu_cxx___normal_iterator_iterator_type = u8;
-pub type __gnu_cxx___normal_iterator_iterator_category = u8;
-pub type __gnu_cxx___normal_iterator_value_type = u8;
-pub type __gnu_cxx___normal_iterator_difference_type = u8;
-pub type __gnu_cxx___normal_iterator_reference = u8;
-pub type __gnu_cxx___normal_iterator_pointer = u8;
 #[doc = " \\brief Base class typedef.\n \\sa PlainObjectBase"]
 pub type Eigen_Matrix_Base = u8;
 pub const Eigen_Matrix_Options: Eigen_Matrix__bindgen_ty_1 = 0;
-pub type Eigen_Matrix__bindgen_ty_1 = i32;
+pub type Eigen_Matrix__bindgen_ty_1 = ::std::os::raw::c_int;
 pub type Eigen_Matrix_Scalar = u8;
 pub type Eigen_Matrix_RealScalar = u8;
 pub type Eigen_Matrix_CoeffReturnType = u8;
@@ -860,7 +242,7 @@ pub const Eigen_Matrix_CompileTimeTraits_Flags: Eigen_Matrix_CompileTimeTraits =
 pub const Eigen_Matrix_CompileTimeTraits_SizeAtCompileTime: Eigen_Matrix_CompileTimeTraits = 0;
 pub const Eigen_Matrix_CompileTimeTraits_MaxSizeAtCompileTime: Eigen_Matrix_CompileTimeTraits = 0;
 pub const Eigen_Matrix_CompileTimeTraits_IsVectorAtCompileTime: Eigen_Matrix_CompileTimeTraits = 0;
-pub type Eigen_Matrix_CompileTimeTraits = i32;
+pub type Eigen_Matrix_CompileTimeTraits = ::std::os::raw::c_int;
 pub type Eigen_Matrix_PacketScalar = u8;
 pub type Eigen_Matrix_PlainObject = u8;
 #[doc = " \\class Matrix\n \\ingroup Core_Module\n\n \\brief The matrix class, also used for vectors and row-vectors\n\n The %Matrix class is the work-horse for all \\em dense (\\ref dense \"note\") matrices and vectors within Eigen.\n Vectors are matrices with one column, and row-vectors are matrices with one row.\n\n The %Matrix class encompasses \\em both fixed-size and dynamic-size objects (\\ref fixedsize \"note\").\n\n The first three template parameters are required:\n \\tparam Scalar_ Numeric type, e.g. float, double, int or std::complex<float>.\n                 User defined scalar types are supported as well (see \\ref user_defined_scalars \"here\").\n \\tparam Rows_ Number of rows, or \\b Dynamic\n \\tparam Cols_ Number of columns, or \\b Dynamic\n\n The remaining template parameters are optional -- in most cases you don't have to worry about them.\n \\tparam Options_ A combination of either \\b #RowMajor or \\b #ColMajor, and of either\n                 \\b #AutoAlign or \\b #DontAlign.\n                 The former controls \\ref TopicStorageOrders \"storage order\", and defaults to column-major. The latter controls alignment, which is required\n                 for vectorization. It defaults to aligning matrices except for fixed sizes that aren't a multiple of the packet size.\n \\tparam MaxRows_ Maximum number of rows. Defaults to \\a Rows_ (\\ref maxrows \"note\").\n \\tparam MaxCols_ Maximum number of columns. Defaults to \\a Cols_ (\\ref maxrows \"note\").\n\n Eigen provides a number of typedefs covering the usual cases. Here are some examples:\n\n \\li \\c Matrix2d is a 2x2 square matrix of doubles (\\c Matrix<double, 2, 2>)\n \\li \\c Vector4f is a vector of 4 floats (\\c Matrix<float, 4, 1>)\n \\li \\c RowVector3i is a row-vector of 3 ints (\\c Matrix<int, 1, 3>)\n\n \\li \\c MatrixXf is a dynamic-size matrix of floats (\\c Matrix<float, Dynamic, Dynamic>)\n \\li \\c VectorXf is a dynamic-size vector of floats (\\c Matrix<float, Dynamic, 1>)\n\n \\li \\c Matrix2Xf is a partially fixed-size (dynamic-size) matrix of floats (\\c Matrix<float, 2, Dynamic>)\n \\li \\c MatrixX3d is a partially dynamic-size (fixed-size) matrix of double (\\c Matrix<double, Dynamic, 3>)\n\n See \\link matrixtypedefs this page \\endlink for a complete list of predefined \\em %Matrix and \\em Vector typedefs.\n\n You can access elements of vectors and matrices using normal subscripting:\n\n \\code\n Eigen::VectorXd v(10);\n v[0] = 0.1;\n v[1] = 0.2;\n v(0) = 0.3;\n v(1) = 0.4;\n\n Eigen::MatrixXi m(10, 10);\n m(0, 1) = 1;\n m(0, 2) = 2;\n m(0, 3) = 3;\n \\endcode\n\n This class can be extended with the help of the plugin mechanism described on the page\n \\ref TopicCustomizing_Plugins by defining the preprocessor symbol \\c EIGEN_MATRIX_PLUGIN.\n\n <i><b>Some notes:</b></i>\n\n <dl>\n <dt><b>\\anchor dense Dense versus sparse:</b></dt>\n <dd>This %Matrix class handles dense, not sparse matrices and vectors. For sparse matrices and vectors, see the Sparse module.\n\n Dense matrices and vectors are plain usual arrays of coefficients. All the coefficients are stored, in an ordinary contiguous array.\n This is unlike Sparse matrices and vectors where the coefficients are stored as a list of nonzero coefficients.</dd>\n\n <dt><b>\\anchor fixedsize Fixed-size versus dynamic-size:</b></dt>\n <dd>Fixed-size means that the numbers of rows and columns are known are compile-time. In this case, Eigen allocates the array\n of coefficients as a fixed-size array, as a class member. This makes sense for very small matrices, typically up to 4x4, sometimes up\n to 16x16. Larger matrices should be declared as dynamic-size even if one happens to know their size at compile-time.\n\n Dynamic-size means that the numbers of rows or columns are not necessarily known at compile-time. In this case they are runtime\n variables, and the array of coefficients is allocated dynamically on the heap.\n\n Note that \\em dense matrices, be they Fixed-size or Dynamic-size, <em>do not</em> expand dynamically in the sense of a std::map.\n If you want this behavior, see the Sparse module.</dd>\n\n <dt><b>\\anchor maxrows MaxRows_ and MaxCols_:</b></dt>\n <dd>In most cases, one just leaves these parameters to the default values.\n These parameters mean the maximum size of rows and columns that the matrix may have. They are useful in cases\n when the exact numbers of rows and columns are not known are compile-time, but it is known at compile-time that they cannot\n exceed a certain value. This happens when taking dynamic-size blocks inside fixed-size matrices: in this case MaxRows_ and MaxCols_\n are the dimensions of the original matrix, while Rows_ and Cols_ are Dynamic.</dd>\n </dl>\n\n <i><b>ABI and storage layout</b></i>\n\n The table below summarizes the ABI of some possible Matrix instances which is fixed thorough the lifetime of Eigen 3.\n <table  class=\"manual\">\n <tr><th>Matrix type</th><th>Equivalent C structure</th></tr>\n <tr><td>\\code Matrix<T,Dynamic,Dynamic> \\endcode</td><td>\\code\n struct {\n   T *data;                  // with (size_t(data)%EIGEN_MAX_ALIGN_BYTES)==0\n   Eigen::Index rows, cols;\n  };\n \\endcode</td></tr>\n <tr class=\"alt\"><td>\\code\n Matrix<T,Dynamic,1>\n Matrix<T,1,Dynamic> \\endcode</td><td>\\code\n struct {\n   T *data;                  // with (size_t(data)%EIGEN_MAX_ALIGN_BYTES)==0\n   Eigen::Index size;\n  };\n \\endcode</td></tr>\n <tr><td>\\code Matrix<T,Rows,Cols> \\endcode</td><td>\\code\n struct {\n   T data[Rows*Cols];        // with (size_t(data)%A(Rows*Cols*sizeof(T)))==0\n  };\n \\endcode</td></tr>\n <tr class=\"alt\"><td>\\code Matrix<T,Dynamic,Dynamic,0,MaxRows,MaxCols> \\endcode</td><td>\\code\n struct {\n   T data[MaxRows*MaxCols];  // with (size_t(data)%A(MaxRows*MaxCols*sizeof(T)))==0\n   Eigen::Index rows, cols;\n  };\n \\endcode</td></tr>\n </table>\n Note that in this table Rows, Cols, MaxRows and MaxCols are all positive integers. A(S) is defined to the largest possible power-of-two\n smaller to EIGEN_MAX_STATIC_ALIGN_BYTES.\n\n \\see MatrixBase for the majority of the API methods for matrices, \\ref TopicClassHierarchy,\n \\ref TopicStorageOrders"]
@@ -881,7 +263,7 @@ pub const Eigen_Block_CompileTimeTraits_Flags: Eigen_Block_CompileTimeTraits = 0
 pub const Eigen_Block_CompileTimeTraits_SizeAtCompileTime: Eigen_Block_CompileTimeTraits = 0;
 pub const Eigen_Block_CompileTimeTraits_MaxSizeAtCompileTime: Eigen_Block_CompileTimeTraits = 0;
 pub const Eigen_Block_CompileTimeTraits_IsVectorAtCompileTime: Eigen_Block_CompileTimeTraits = 0;
-pub type Eigen_Block_CompileTimeTraits = i32;
+pub type Eigen_Block_CompileTimeTraits = ::std::os::raw::c_int;
 pub type Eigen_Block_NestedExpression = u8;
 #[repr(C)]
 pub struct nam_activations_Activation__bindgen_vtable(::std::os::raw::c_void);
@@ -891,11 +273,11 @@ pub struct nam_activations_Activation {
     pub vtable_: *const nam_activations_Activation__bindgen_vtable,
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam11activations10Activation15using_fast_tanhE"]
+    #[link_name = "\u{1}?using_fast_tanh@Activation@activations@nam@@2_NA"]
     pub static mut nam_activations_Activation_using_fast_tanh: bool;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam11activations10Activation12_activationsB5cxx11E"]
+    #[link_name = "\u{1}?_activations@Activation@activations@nam@@1V?$unordered_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVActivation@activations@nam@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVActivation@activations@nam@@@std@@@2@@std@@A"]
     pub static mut nam_activations_Activation__activations: u8;
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
@@ -906,17 +288,17 @@ const _: () = {
         [::std::mem::align_of::<nam_activations_Activation>() - 8usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam11activations10Activation14get_activationENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"]
+    #[link_name = "\u{1}?get_activation@Activation@activations@nam@@SAPEAV123@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"]
     pub fn nam_activations_Activation_get_activation(
         name: std_string,
     ) -> *mut nam_activations_Activation;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam11activations10Activation16enable_fast_tanhEv"]
+    #[link_name = "\u{1}?enable_fast_tanh@Activation@activations@nam@@SAXXZ"]
     pub fn nam_activations_Activation_enable_fast_tanh();
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam11activations10Activation17disable_fast_tanhEv"]
+    #[link_name = "\u{1}?disable_fast_tanh@Activation@activations@nam@@SAXXZ"]
     pub fn nam_activations_Activation_disable_fast_tanh();
 }
 impl nam_activations_Activation {
@@ -1012,7 +394,7 @@ pub const nam_EArchitectures_kCatLSTM: nam_EArchitectures = 3;
 pub const nam_EArchitectures_kWaveNet: nam_EArchitectures = 4;
 pub const nam_EArchitectures_kCatWaveNet: nam_EArchitectures = 5;
 pub const nam_EArchitectures_kNumModels: nam_EArchitectures = 6;
-pub type nam_EArchitectures = ::std::os::raw::c_uint;
+pub type nam_EArchitectures = ::std::os::raw::c_int;
 #[repr(C)]
 pub struct nam_DSP__bindgen_vtable(::std::os::raw::c_void);
 #[repr(C)]
@@ -1064,15 +446,15 @@ const _: () = {
         [::std::mem::offset_of!(nam_DSP, mOutputLevel) - 60usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam3DSP11GetLoudnessEv"]
+    #[link_name = "\u{1}?GetLoudness@DSP@nam@@QEBANXZ"]
     pub fn nam_DSP_GetLoudness(this: *const nam_DSP) -> f64;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam3DSP11SetLoudnessEd"]
+    #[link_name = "\u{1}?SetLoudness@DSP@nam@@QEAAXN@Z"]
     pub fn nam_DSP_SetLoudness(this: *mut nam_DSP, loudness: f64);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam3DSPC1Ed"]
+    #[link_name = "\u{1}??0DSP@nam@@QEAA@N@Z"]
     pub fn nam_DSP_DSP(this: *mut nam_DSP, expected_sample_rate: f64);
 }
 impl nam_DSP {
@@ -1092,11 +474,11 @@ impl nam_DSP {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam3DSP7prewarmEv"]
+    #[link_name = "\u{1}?prewarm@DSP@nam@@UEAAXXZ"]
     pub fn nam_DSP_prewarm(this: *mut ::std::os::raw::c_void);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam3DSP7processEPfS1_i"]
+    #[link_name = "\u{1}?process@DSP@nam@@UEAAXPEAM0H@Z"]
     pub fn nam_DSP_process(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -1105,7 +487,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam3DSP5ResetEdi"]
+    #[link_name = "\u{1}?Reset@DSP@nam@@UEAAXNH@Z"]
     pub fn nam_DSP_Reset(
         this: *mut ::std::os::raw::c_void,
         sampleRate: f64,
@@ -1113,7 +495,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam3DSP16SetMaxBufferSizeEi"]
+    #[link_name = "\u{1}?SetMaxBufferSize@DSP@nam@@MEAAXH@Z"]
     pub fn nam_DSP_SetMaxBufferSize(
         this: *mut ::std::os::raw::c_void,
         maxBufferSize: ::std::os::raw::c_int,
@@ -1123,22 +505,22 @@ unsafe extern "C" {
 #[repr(align(8))]
 #[derive(Debug, Copy, Clone)]
 pub struct nam_Buffer {
-    pub _bindgen_opaque_blob: [u64; 16usize],
+    pub _bindgen_opaque_blob: [u64; 17usize],
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of nam_Buffer"][::std::mem::size_of::<nam_Buffer>() - 128usize];
+    ["Size of nam_Buffer"][::std::mem::size_of::<nam_Buffer>() - 136usize];
     ["Alignment of nam_Buffer"][::std::mem::align_of::<nam_Buffer>() - 8usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Buffer22_advance_input_buffer_Ei"]
+    #[link_name = "\u{1}?_advance_input_buffer_@Buffer@nam@@IEAAXH@Z"]
     pub fn nam_Buffer__advance_input_buffer_(
         this: *mut nam_Buffer,
         num_frames: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Buffer20_set_receptive_fieldEii"]
+    #[link_name = "\u{1}?_set_receptive_field@Buffer@nam@@IEAAXHH@Z"]
     pub fn nam_Buffer__set_receptive_field(
         this: *mut nam_Buffer,
         new_receptive_field: ::std::os::raw::c_int,
@@ -1146,18 +528,18 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Buffer20_set_receptive_fieldEi"]
+    #[link_name = "\u{1}?_set_receptive_field@Buffer@nam@@IEAAXH@Z"]
     pub fn nam_Buffer__set_receptive_field1(
         this: *mut nam_Buffer,
         new_receptive_field: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Buffer19_reset_input_bufferEv"]
+    #[link_name = "\u{1}?_reset_input_buffer@Buffer@nam@@IEAAXXZ"]
     pub fn nam_Buffer__reset_input_buffer(this: *mut nam_Buffer);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6BufferC1Eid"]
+    #[link_name = "\u{1}??0Buffer@nam@@QEAA@HN@Z"]
     pub fn nam_Buffer_Buffer(
         this: *mut nam_Buffer,
         receptive_field: ::std::os::raw::c_int,
@@ -1197,7 +579,7 @@ impl nam_Buffer {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Buffer16_update_buffers_EPfi"]
+    #[link_name = "\u{1}?_update_buffers_@Buffer@nam@@MEAAXPEAMH@Z"]
     pub fn nam_Buffer__update_buffers_(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -1205,7 +587,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Buffer16_rewind_buffers_Ev"]
+    #[link_name = "\u{1}?_rewind_buffers_@Buffer@nam@@MEAAXXZ"]
     pub fn nam_Buffer__rewind_buffers_(this: *mut ::std::os::raw::c_void);
 }
 #[repr(C)]
@@ -1217,14 +599,14 @@ pub struct nam_Linear {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of nam_Linear"][::std::mem::size_of::<nam_Linear>() - 152usize];
+    ["Size of nam_Linear"][::std::mem::size_of::<nam_Linear>() - 160usize];
     ["Alignment of nam_Linear"][::std::mem::align_of::<nam_Linear>() - 8usize];
     ["Offset of field: nam_Linear::_weight"]
-        [::std::mem::offset_of!(nam_Linear, _weight) - 128usize];
-    ["Offset of field: nam_Linear::_bias"][::std::mem::offset_of!(nam_Linear, _bias) - 144usize];
+        [::std::mem::offset_of!(nam_Linear, _weight) - 136usize];
+    ["Offset of field: nam_Linear::_bias"][::std::mem::offset_of!(nam_Linear, _bias) - 152usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6LinearC1EibRKSt6vectorIfSaIfEEd"]
+    #[link_name = "\u{1}??0Linear@nam@@QEAA@H_NAEBV?$vector@MV?$allocator@M@std@@@std@@N@Z"]
     pub fn nam_Linear_Linear(
         this: *mut nam_Linear,
         receptive_field: ::std::os::raw::c_int,
@@ -1253,7 +635,7 @@ impl nam_Linear {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Linear7processEPfS1_i"]
+    #[link_name = "\u{1}?process@Linear@nam@@UEAAXPEAM0H@Z"]
     pub fn nam_Linear_process(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -1278,11 +660,11 @@ const _: () = {
         [::std::mem::offset_of!(nam_Conv1D, _dilation) - 40usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Conv1D12set_weights_ERN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}?set_weights_@Conv1D@nam@@QEAAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_Conv1D_set_weights_(this: *mut nam_Conv1D, weights: *mut u8);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Conv1D9set_size_Eiiibi"]
+    #[link_name = "\u{1}?set_size_@Conv1D@nam@@QEAAXHHH_NH@Z"]
     pub fn nam_Conv1D_set_size_(
         this: *mut nam_Conv1D,
         in_channels: ::std::os::raw::c_int,
@@ -1293,7 +675,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam6Conv1D21set_size_and_weights_EiiiibRN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}?set_size_and_weights_@Conv1D@nam@@QEAAXHHHH_NAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_Conv1D_set_size_and_weights_(
         this: *mut nam_Conv1D,
         in_channels: ::std::os::raw::c_int,
@@ -1305,7 +687,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam6Conv1D8process_ERKN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEERS3_lll"]
+    #[link_name = "\u{1}?process_@Conv1D@nam@@QEBAXAEBV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@AEAV34@JJJ@Z"]
     pub fn nam_Conv1D_process_(
         this: *const nam_Conv1D,
         input: *const Eigen_MatrixXf,
@@ -1316,7 +698,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam6Conv1D15get_num_weightsEv"]
+    #[link_name = "\u{1}?get_num_weights@Conv1D@nam@@QEBAJXZ"]
     pub fn nam_Conv1D_get_num_weights(this: *const nam_Conv1D) -> ::std::os::raw::c_long;
 }
 impl nam_Conv1D {
@@ -1399,25 +781,25 @@ const _: () = {
         [::std::mem::offset_of!(nam_Conv1x1, _do_bias) - 64usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7Conv1x19GetOutputEi"]
+    #[link_name = "\u{1}?GetOutput@Conv1x1@nam@@QEAA?AV?$Block@V?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@$0?0$0?0$0A@@Eigen@@H@Z"]
     pub fn nam_Conv1x1_GetOutput(
         this: *mut nam_Conv1x1,
         num_frames: ::std::os::raw::c_int,
     ) -> __BindgenOpaqueArray<u64, 7usize>;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7Conv1x116SetMaxBufferSizeEi"]
+    #[link_name = "\u{1}?SetMaxBufferSize@Conv1x1@nam@@QEAAXH@Z"]
     pub fn nam_Conv1x1_SetMaxBufferSize(
         this: *mut nam_Conv1x1,
         maxBufferSize: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7Conv1x112set_weights_ERN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}?set_weights_@Conv1x1@nam@@QEAAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_Conv1x1_set_weights_(this: *mut nam_Conv1x1, weights: *mut u8);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam7Conv1x17processERKN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEEi"]
+    #[link_name = "\u{1}?process@Conv1x1@nam@@QEBA?AV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@AEBV34@H@Z"]
     pub fn nam_Conv1x1_process(
         this: *const nam_Conv1x1,
         input: *const Eigen_MatrixXf,
@@ -1425,7 +807,7 @@ unsafe extern "C" {
     ) -> Eigen_MatrixXf;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7Conv1x18process_ERKN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEEi"]
+    #[link_name = "\u{1}?process_@Conv1x1@nam@@QEAAXAEBV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@H@Z"]
     pub fn nam_Conv1x1_process_(
         this: *mut nam_Conv1x1,
         input: *const Eigen_MatrixXf,
@@ -1433,7 +815,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7Conv1x1C1Eiib"]
+    #[link_name = "\u{1}??0Conv1x1@nam@@QEAA@HH_N@Z"]
     pub fn nam_Conv1x1_Conv1x1(
         this: *mut nam_Conv1x1,
         in_channels: ::std::os::raw::c_int,
@@ -1511,24 +893,24 @@ const _: () = {
         [::std::mem::offset_of!(nam_dspData, expected_sample_rate) - 120usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam21verify_config_versionENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"]
+    #[link_name = "\u{1}?verify_config_version@nam@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"]
     pub fn nam_verify_config_version(version: std_string);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7get_dspENSt10filesystem7__cxx114pathE"]
-    pub fn nam_get_dsp(model_file: std_filesystem_path) -> u64;
+    #[link_name = "\u{1}?get_dsp@nam@@YA?AV?$unique_ptr@VDSP@nam@@U?$default_delete@VDSP@nam@@@std@@@std@@Vpath@filesystem@3@@Z"]
+    pub fn nam_get_dsp(model_file: std_filesystem_path) -> u8;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7get_dspENSt10filesystem7__cxx114pathERNS_7dspDataE"]
-    pub fn nam_get_dsp1(model_file: std_filesystem_path, returnedConfig: *mut nam_dspData) -> u64;
+    #[link_name = "\u{1}?get_dsp@nam@@YA?AV?$unique_ptr@VDSP@nam@@U?$default_delete@VDSP@nam@@@std@@@std@@Vpath@filesystem@3@AEAUdspData@1@@Z"]
+    pub fn nam_get_dsp1(model_file: std_filesystem_path, returnedConfig: *mut nam_dspData) -> u8;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7get_dspERNS_7dspDataE"]
-    pub fn nam_get_dsp2(conf: *mut nam_dspData) -> u64;
+    #[link_name = "\u{1}?get_dsp@nam@@YA?AV?$unique_ptr@VDSP@nam@@U?$default_delete@VDSP@nam@@@std@@@std@@AEAUdspData@1@@Z"]
+    pub fn nam_get_dsp2(conf: *mut nam_dspData) -> u8;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam14get_dsp_legacyENSt10filesystem7__cxx114pathE"]
-    pub fn nam_get_dsp_legacy(dirname: std_filesystem_path) -> u64;
+    #[link_name = "\u{1}?get_dsp_legacy@nam@@YA?AV?$unique_ptr@VDSP@nam@@U?$default_delete@VDSP@nam@@@std@@@std@@Vpath@filesystem@3@@Z"]
+    pub fn nam_get_dsp_legacy(dirname: std_filesystem_path) -> u8;
 }
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -1547,7 +929,7 @@ const _: () = {
         [::std::mem::offset_of!(nam_convnet_BatchNorm, loc) - 16usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam7convnet9BatchNorm8process_ERN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEEll"]
+    #[link_name = "\u{1}?process_@BatchNorm@convnet@nam@@QEBAXAEAV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@JJ@Z"]
     pub fn nam_convnet_BatchNorm_process_(
         this: *const nam_convnet_BatchNorm,
         input: *mut Eigen_MatrixXf,
@@ -1556,7 +938,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet9BatchNormC1EiRN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}??0BatchNorm@convnet@nam@@QEAA@HAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_convnet_BatchNorm_BatchNorm(
         this: *mut nam_convnet_BatchNorm,
         dim: ::std::os::raw::c_int,
@@ -1604,7 +986,7 @@ const _: () = {
         [::std::mem::offset_of!(nam_convnet_ConvNetBlock, activation) - 88usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet12ConvNetBlock12set_weights_EiiibNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}?set_weights_@ConvNetBlock@convnet@nam@@QEAAXHHH_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@5@@Z"]
     pub fn nam_convnet_ConvNetBlock_set_weights_(
         this: *mut nam_convnet_ConvNetBlock,
         in_channels: ::std::os::raw::c_int,
@@ -1616,7 +998,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam7convnet12ConvNetBlock8process_ERKN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEERS4_ll"]
+    #[link_name = "\u{1}?process_@ConvNetBlock@convnet@nam@@QEBAXAEBV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@AEAV45@JJ@Z"]
     pub fn nam_convnet_ConvNetBlock_process_(
         this: *const nam_convnet_ConvNetBlock,
         input: *const Eigen_MatrixXf,
@@ -1626,7 +1008,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam7convnet12ConvNetBlock16get_out_channelsEv"]
+    #[link_name = "\u{1}?get_out_channels@ConvNetBlock@convnet@nam@@QEBAJXZ"]
     pub fn nam_convnet_ConvNetBlock_get_out_channels(
         this: *const nam_convnet_ConvNetBlock,
     ) -> ::std::os::raw::c_long;
@@ -1683,7 +1065,7 @@ const _: () = {
         [::std::mem::offset_of!(nam_convnet__Head, _bias) - 16usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam7convnet5_Head8process_ERKN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEERNS3_IfLin1ELi1ELi0ELin1ELi1EEEll"]
+    #[link_name = "\u{1}?process_@_Head@convnet@nam@@QEBAXAEBV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@AEAV?$Matrix@M$0?0$00$0A@$0?0$00@5@JJ@Z"]
     pub fn nam_convnet__Head_process_(
         this: *const nam_convnet__Head,
         input: *const Eigen_MatrixXf,
@@ -1693,7 +1075,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet5_HeadC1EiRN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}??0_Head@convnet@nam@@QEAA@HAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_convnet__Head__Head(
         this: *mut nam_convnet__Head,
         channels: ::std::os::raw::c_int,
@@ -1730,21 +1112,21 @@ pub struct nam_convnet_ConvNet {
 }
 #[allow(clippy::unnecessary_operation, clippy::identity_op)]
 const _: () = {
-    ["Size of nam_convnet_ConvNet"][::std::mem::size_of::<nam_convnet_ConvNet>() - 224usize];
+    ["Size of nam_convnet_ConvNet"][::std::mem::size_of::<nam_convnet_ConvNet>() - 232usize];
     ["Alignment of nam_convnet_ConvNet"][::std::mem::align_of::<nam_convnet_ConvNet>() - 8usize];
     ["Offset of field: nam_convnet_ConvNet::_blocks"]
-        [::std::mem::offset_of!(nam_convnet_ConvNet, _blocks) - 128usize];
+        [::std::mem::offset_of!(nam_convnet_ConvNet, _blocks) - 136usize];
     ["Offset of field: nam_convnet_ConvNet::_block_vals"]
-        [::std::mem::offset_of!(nam_convnet_ConvNet, _block_vals) - 152usize];
+        [::std::mem::offset_of!(nam_convnet_ConvNet, _block_vals) - 160usize];
     ["Offset of field: nam_convnet_ConvNet::_head_output"]
-        [::std::mem::offset_of!(nam_convnet_ConvNet, _head_output) - 176usize];
+        [::std::mem::offset_of!(nam_convnet_ConvNet, _head_output) - 184usize];
     ["Offset of field: nam_convnet_ConvNet::_head"]
-        [::std::mem::offset_of!(nam_convnet_ConvNet, _head) - 192usize];
+        [::std::mem::offset_of!(nam_convnet_ConvNet, _head) - 200usize];
     ["Offset of field: nam_convnet_ConvNet::mPrewarmSamples"]
-        [::std::mem::offset_of!(nam_convnet_ConvNet, mPrewarmSamples) - 216usize];
+        [::std::mem::offset_of!(nam_convnet_ConvNet, mPrewarmSamples) - 224usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet7ConvNet15_verify_weightsEiRKSt6vectorIiSaIiEEby"]
+    #[link_name = "\u{1}?_verify_weights@ConvNet@convnet@nam@@IEAAXHAEBV?$vector@HV?$allocator@H@std@@@std@@_N_K@Z"]
     pub fn nam_convnet_ConvNet__verify_weights(
         this: *mut nam_convnet_ConvNet,
         channels: ::std::os::raw::c_int,
@@ -1754,7 +1136,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet7ConvNetC1EiRKSt6vectorIiSaIiEEbNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS2_IfSaIfEEd"]
+    #[link_name = "\u{1}??0ConvNet@convnet@nam@@QEAA@HAEBV?$vector@HV?$allocator@H@std@@@std@@_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@AEAV?$vector@MV?$allocator@M@std@@@4@N@Z"]
     pub fn nam_convnet_ConvNet_ConvNet(
         this: *mut nam_convnet_ConvNet,
         channels: ::std::os::raw::c_int,
@@ -1799,7 +1181,7 @@ impl nam_convnet_ConvNet {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet7ConvNet7processEPfS2_i"]
+    #[link_name = "\u{1}?process@ConvNet@convnet@nam@@UEAAXPEAM0H@Z"]
     pub fn nam_convnet_ConvNet_process(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -1808,7 +1190,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet7ConvNet16_update_buffers_EPfi"]
+    #[link_name = "\u{1}?_update_buffers_@ConvNet@convnet@nam@@MEAAXPEAMH@Z"]
     pub fn nam_convnet_ConvNet__update_buffers_(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -1816,7 +1198,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7convnet7ConvNet16_rewind_buffers_Ev"]
+    #[link_name = "\u{1}?_rewind_buffers_@ConvNet@convnet@nam@@MEAAXXZ"]
     pub fn nam_convnet_ConvNet__rewind_buffers_(this: *mut ::std::os::raw::c_void);
 }
 #[repr(C)]
@@ -1844,11 +1226,11 @@ const _: () = {
         [::std::mem::offset_of!(nam_lstm_LSTMCell, _c) - 72usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam4lstm8LSTMCell8process_ERKN5Eigen6MatrixIfLin1ELi1ELi0ELin1ELi1EEE"]
+    #[link_name = "\u{1}?process_@LSTMCell@lstm@nam@@QEAAXAEBV?$Matrix@M$0?0$00$0A@$0?0$00@Eigen@@@Z"]
     pub fn nam_lstm_LSTMCell_process_(this: *mut nam_lstm_LSTMCell, x: *const Eigen_VectorXf);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam4lstm8LSTMCellC1EiiRN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}??0LSTMCell@lstm@nam@@QEAA@HHAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_lstm_LSTMCell_LSTMCell(
         this: *mut nam_lstm_LSTMCell,
         input_size: ::std::os::raw::c_int,
@@ -1895,11 +1277,11 @@ const _: () = {
         [::std::mem::offset_of!(nam_lstm_LSTM, _input) - 120usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam4lstm4LSTM15_process_sampleEf"]
+    #[link_name = "\u{1}?_process_sample@LSTM@lstm@nam@@IEAAMM@Z"]
     pub fn nam_lstm_LSTM__process_sample(this: *mut nam_lstm_LSTM, x: f32) -> f32;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam4lstm4LSTMC1EiiiRSt6vectorIfSaIfEEd"]
+    #[link_name = "\u{1}??0LSTM@lstm@nam@@QEAA@HHHAEAV?$vector@MV?$allocator@M@std@@@std@@N@Z"]
     pub fn nam_lstm_LSTM_LSTM(
         this: *mut nam_lstm_LSTM,
         num_layers: ::std::os::raw::c_int,
@@ -1935,12 +1317,12 @@ impl nam_lstm_LSTM {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam4lstm4LSTM14PrewarmSamplesEv"]
+    #[link_name = "\u{1}?PrewarmSamples@LSTM@lstm@nam@@MEAAHXZ"]
     pub fn nam_lstm_LSTM_PrewarmSamples(this: *mut ::std::os::raw::c_void)
         -> ::std::os::raw::c_int;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam4lstm4LSTM7processEPfS2_i"]
+    #[link_name = "\u{1}?process@LSTM@lstm@nam@@MEAAXPEAM0H@Z"]
     pub fn nam_lstm_LSTM_process(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -1949,7 +1331,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam4util9lowercaseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"]
+    #[link_name = "\u{1}?lowercase@util@nam@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z"]
     pub fn nam_util_lowercase(s: *const std_string) -> std_string;
 }
 #[repr(C)]
@@ -1965,7 +1347,7 @@ const _: () = {
         [::std::mem::align_of::<nam_wavenet__DilatedConv>() - 8usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet12_DilatedConvC1Eiiiii"]
+    #[link_name = "\u{1}??0_DilatedConv@wavenet@nam@@QEAA@HHHHH@Z"]
     pub fn nam_wavenet__DilatedConv__DilatedConv(
         this: *mut nam_wavenet__DilatedConv,
         in_channels: ::std::os::raw::c_int,
@@ -2024,18 +1406,18 @@ const _: () = {
         [::std::mem::offset_of!(nam_wavenet__Layer, _gated) - 224usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet6_Layer16SetMaxBufferSizeEi"]
+    #[link_name = "\u{1}?SetMaxBufferSize@_Layer@wavenet@nam@@QEAAXH@Z"]
     pub fn nam_wavenet__Layer_SetMaxBufferSize(
         this: *mut nam_wavenet__Layer,
         maxBufferSize: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet6_Layer12set_weights_ERN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}?set_weights_@_Layer@wavenet@nam@@QEAAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_wavenet__Layer_set_weights_(this: *mut nam_wavenet__Layer, weights: *mut u8);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet6_Layer8process_ERKN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEES6_RS4_S7_lli"]
+    #[link_name = "\u{1}?process_@_Layer@wavenet@nam@@QEAAXAEBV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@0AEAV45@1JJH@Z"]
     pub fn nam_wavenet__Layer_process_(
         this: *mut nam_wavenet__Layer,
         input: *const Eigen_MatrixXf,
@@ -2048,7 +1430,7 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet6_Layer15set_num_frames_El"]
+    #[link_name = "\u{1}?set_num_frames_@_Layer@wavenet@nam@@QEAAXJ@Z"]
     pub fn nam_wavenet__Layer_set_num_frames_(
         this: *mut nam_wavenet__Layer,
         num_frames: ::std::os::raw::c_long,
@@ -2148,28 +1530,28 @@ const _: () = {
         [::std::mem::offset_of!(nam_wavenet__LayerArray, _head_rechannel) - 128usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet11_LayerArray16SetMaxBufferSizeEi"]
+    #[link_name = "\u{1}?SetMaxBufferSize@_LayerArray@wavenet@nam@@QEAAXH@Z"]
     pub fn nam_wavenet__LayerArray_SetMaxBufferSize(
         this: *mut nam_wavenet__LayerArray,
         maxBufferSize: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet11_LayerArray16advance_buffers_Ei"]
+    #[link_name = "\u{1}?advance_buffers_@_LayerArray@wavenet@nam@@QEAAXH@Z"]
     pub fn nam_wavenet__LayerArray_advance_buffers_(
         this: *mut nam_wavenet__LayerArray,
         num_frames: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet11_LayerArray19prepare_for_frames_El"]
+    #[link_name = "\u{1}?prepare_for_frames_@_LayerArray@wavenet@nam@@QEAAXJ@Z"]
     pub fn nam_wavenet__LayerArray_prepare_for_frames_(
         this: *mut nam_wavenet__LayerArray,
         num_frames: ::std::os::raw::c_long,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet11_LayerArray8process_ERKN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEES6_RS4_S7_S7_i"]
+    #[link_name = "\u{1}?process_@_LayerArray@wavenet@nam@@QEAAXAEBV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@0AEAV45@11H@Z"]
     pub fn nam_wavenet__LayerArray_process_(
         this: *mut nam_wavenet__LayerArray,
         layer_inputs: *const Eigen_MatrixXf,
@@ -2181,24 +1563,24 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet11_LayerArray15set_num_frames_El"]
+    #[link_name = "\u{1}?set_num_frames_@_LayerArray@wavenet@nam@@QEAAXJ@Z"]
     pub fn nam_wavenet__LayerArray_set_num_frames_(
         this: *mut nam_wavenet__LayerArray,
         num_frames: ::std::os::raw::c_long,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet11_LayerArray12set_weights_ERN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}?set_weights_@_LayerArray@wavenet@nam@@QEAAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_wavenet__LayerArray_set_weights_(this: *mut nam_wavenet__LayerArray, it: *mut u8);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZNK3nam7wavenet11_LayerArray19get_receptive_fieldEv"]
+    #[link_name = "\u{1}?get_receptive_field@_LayerArray@wavenet@nam@@QEBAJXZ"]
     pub fn nam_wavenet__LayerArray_get_receptive_field(
         this: *const nam_wavenet__LayerArray,
     ) -> ::std::os::raw::c_long;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet11_LayerArrayC1EiiiiiRKSt6vectorIiSaIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb"]
+    #[link_name = "\u{1}??0_LayerArray@wavenet@nam@@QEAA@HHHHHAEBV?$vector@HV?$allocator@H@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@_N2@Z"]
     pub fn nam_wavenet__LayerArray__LayerArray(
         this: *mut nam_wavenet__LayerArray,
         input_size: ::std::os::raw::c_int,
@@ -2310,7 +1692,7 @@ const _: () = {
         [::std::mem::offset_of!(nam_wavenet__Head, _buffers) - 112usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet5_Head5ResetEdi"]
+    #[link_name = "\u{1}?Reset@_Head@wavenet@nam@@QEAAXNH@Z"]
     pub fn nam_wavenet__Head_Reset(
         this: *mut nam_wavenet__Head,
         sampleRate: f64,
@@ -2318,11 +1700,11 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet5_Head12set_weights_ERN9__gnu_cxx17__normal_iteratorIPfSt6vectorIfSaIfEEEE"]
+    #[link_name = "\u{1}?set_weights_@_Head@wavenet@nam@@QEAAXAEAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@M@std@@@std@@@std@@@Z"]
     pub fn nam_wavenet__Head_set_weights_(this: *mut nam_wavenet__Head, weights: *mut u8);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet5_Head8process_ERN5Eigen6MatrixIfLin1ELin1ELi0ELin1ELin1EEES5_"]
+    #[link_name = "\u{1}?process_@_Head@wavenet@nam@@QEAAXAEAV?$Matrix@M$0?0$0?0$0A@$0?0$0?0@Eigen@@0@Z"]
     pub fn nam_wavenet__Head_process_(
         this: *mut nam_wavenet__Head,
         inputs: *mut Eigen_MatrixXf,
@@ -2330,14 +1712,14 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet5_Head15set_num_frames_El"]
+    #[link_name = "\u{1}?set_num_frames_@_Head@wavenet@nam@@QEAAXJ@Z"]
     pub fn nam_wavenet__Head_set_num_frames_(
         this: *mut nam_wavenet__Head,
         num_frames: ::std::os::raw::c_long,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet5_HeadC1EiiiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE"]
+    #[link_name = "\u{1}??0_Head@wavenet@nam@@QEAA@HHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"]
     pub fn nam_wavenet__Head__Head(
         this: *mut nam_wavenet__Head,
         input_size: ::std::os::raw::c_int,
@@ -2413,14 +1795,14 @@ const _: () = {
         [::std::mem::offset_of!(nam_wavenet_WaveNet, mPrewarmSamples) - 200usize];
 };
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet7WaveNet12set_weights_ERSt6vectorIfSaIfEE"]
+    #[link_name = "\u{1}?set_weights_@WaveNet@wavenet@nam@@QEAAXAEAV?$vector@MV?$allocator@M@std@@@std@@@Z"]
     pub fn nam_wavenet_WaveNet_set_weights_(
         this: *mut nam_wavenet_WaveNet,
         weights: *mut __BindgenOpaqueArray<u64, 3usize>,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet7WaveNetC1ERKSt6vectorINS0_16LayerArrayParamsESaIS3_EEfbS2_IfSaIfEEd"]
+    #[link_name = "\u{1}??0WaveNet@wavenet@nam@@QEAA@AEBV?$vector@VLayerArrayParams@wavenet@nam@@V?$allocator@VLayerArrayParams@wavenet@nam@@@std@@@std@@M_NV?$vector@MV?$allocator@M@std@@@4@N@Z"]
     pub fn nam_wavenet_WaveNet_WaveNet(
         this: *mut nam_wavenet_WaveNet,
         layer_array_params: *const u8,
@@ -2456,7 +1838,7 @@ impl nam_wavenet_WaveNet {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet7WaveNet7processEPfS2_i"]
+    #[link_name = "\u{1}?process@WaveNet@wavenet@nam@@UEAAXPEAM0H@Z"]
     pub fn nam_wavenet_WaveNet_process(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -2465,14 +1847,14 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet7WaveNet16SetMaxBufferSizeEi"]
+    #[link_name = "\u{1}?SetMaxBufferSize@WaveNet@wavenet@nam@@MEAAXH@Z"]
     pub fn nam_wavenet_WaveNet_SetMaxBufferSize(
         this: *mut ::std::os::raw::c_void,
         maxBufferSize: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_ZN3nam7wavenet7WaveNet20_set_condition_arrayEPfi"]
+    #[link_name = "\u{1}?_set_condition_array@WaveNet@wavenet@nam@@MEAAXPEAMH@Z"]
     pub fn nam_wavenet_WaveNet__set_condition_array(
         this: *mut ::std::os::raw::c_void,
         input: *mut f32,
@@ -2482,10 +1864,19 @@ unsafe extern "C" {
 #[doc = "@brief default JSON class\n\nThis type is the default specialization of the @ref basic_json class which\nuses the standard template types.\n\n@since version 1.0.0"]
 pub type nlohmann_json = __BindgenOpaqueArray<u64, 2usize>;
 unsafe extern "C" {
-    #[link_name = "\u{1}_Z24get_dsp_from_string_pathPKc"]
-    pub fn get_dsp_from_string_path(str_: *const ::std::os::raw::c_char) -> u64;
+    #[link_name = "\u{1}?get_dsp_from_string_path@@YA?AV?$unique_ptr@VDSP@nam@@U?$default_delete@VDSP@nam@@@std@@@std@@PEBD@Z"]
+    pub fn get_dsp_from_string_path(str_: *const ::std::os::raw::c_char) -> u8;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}_Z28get_dsp_expected_sample_ratePN3nam3DSPE"]
+    #[link_name = "\u{1}?get_dsp_expected_sample_rate@@YANPEAVDSP@nam@@@Z"]
     pub fn get_dsp_expected_sample_rate(dsp: *mut nam_DSP) -> f64;
+}
+unsafe extern "C" {
+    #[link_name = "\u{1}?dsp_process@@YAXPEAVDSP@nam@@PEAM1H@Z"]
+    pub fn dsp_process(
+        dsp: *mut nam_DSP,
+        input: *mut f32,
+        output: *mut f32,
+        num_frames: ::std::os::raw::c_int,
+    );
 }

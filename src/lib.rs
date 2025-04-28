@@ -70,7 +70,7 @@ impl NeuralAmpModeler {
 
         self.buffer.resize(buffer.len(), 0.0);
 
-        unsafe { bindings::nam_DSP_process(self.model as *mut c_void, buffer.as_mut_ptr(), self.buffer.as_mut_ptr(), buffer.len() as i32); }
+        unsafe { bindings::dsp_process(self.model, buffer.as_mut_ptr(), self.buffer.as_mut_ptr(), buffer.len() as i32) };
         
         buffer.copy_from_slice(&self.buffer[..buffer.len()]);
     }

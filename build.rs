@@ -5,11 +5,13 @@ use std::fs::copy;
 use dunce::canonicalize;
 
 const OPAQUE_TYPES: &[&str] = &["nam::Buffer", "std::.*", "Eigen::.*", "__gnu_cxx::.*", "nlohmann::.*"];
+const BLOCK_TYPES: &[&str] = &["pointer", "size_type", "difference_type", "const_pointer", "value_type"];
 
 fn main() {
     println!("cargo:rerun-if-changed=build.rs");
     println!("cargo:rerun-if-changed=Cargo.lock");
     println!("cargo:rerun-if-changed=CMakeLists.txt");
+
 
     // This is the directory where the `c` library is located.
     let libdir_path = canonicalize(PathBuf::from("NeuralAmpModelerCore/")).expect("Couldn't canonicalize path");
@@ -22,10 +24,13 @@ fn main() {
 
     // This is the path to the `c` headers file.
     let headers_path = libdir_path.join("NAM/wrapper.h");
-    let headers_path_str = headers_path.to_str().expect("Path is not a valid string");
+    let impl_path = libdir_path.join("NAM/wrapper.cpp");
+    let headers_path_str = headers_path.to_str().unwrap(); 
 
     // Copy header.h to NAM directory
     copy("wrapper.h", &headers_path).expect("Couldn't copy wrapper.h file");
+    // Copy wrapper.cpp to NAM directory
+    copy("wrapper.cpp", &impl_path).expect("Couldn't copy wrapper.cpp file");
 
     // Generate bindings for the headers in the `libdir_path` directory
     let allowlist = read_dir(libdir_path.join("NAM")).expect("Couldn't read directory").filter_map(|entry| {
@@ -86,12 +91,11 @@ fn main() {
         .header(headers_path_str)
         .respect_cxx_access_specs(true)
         .clang_arg("-x").clang_arg("c++")
-        .clang_arg("-target").clang_arg("x86_64-pc-windows-gnu")
+        .clang_arg("-std=c++20")
+        .clang_arg("-stdlib=libstdc++")
         .clang_arg("-I").clang_arg(libdir_path.join("Dependencies/nlohmann").to_str().unwrap())
-        .clang_arg("-I").clang_arg(libdir_path.join("Dependencies/eigen").to_str().unwrap())
-        .clang_arg("-DNAM_SAMPLE_FLOAT")
-        .blocklist_type("pointer");
-    
+        .clang_arg("-I").clang_arg(libdir_path.join("Dependencies/eigen").to_str().unwrap());
+
     for entry in allowlist {
         // Regex that matches the file name of the header file
         builder = builder.allowlist_file(format!(".*{}\\.h", entry.file_stem().unwrap().to_str().unwrap()));
@@ -100,6 +104,10 @@ fn main() {
     for opaque in OPAQUE_TYPES {
         builder = builder.opaque_type(opaque);
 
+    }
+
+    for block in BLOCK_TYPES {
+        builder = builder.blocklist_type(block);
     }
 
     let bindings = builder
