@@ -2,26 +2,45 @@ use std::{ffi::c_void, ptr::null_mut};
 
 pub mod bindings;
 
+const DEFAULT_BUFFER_SIZE: usize = 512;
+
 pub struct NeuralAmpModeler {
     model_path: Option<String>,
     model: *mut bindings::nam_DSP,
     buffer: Vec<f32>,
+    maximum_buffer_size: usize
 }
 
 impl NeuralAmpModeler {
-    pub fn new(buffer_size: usize) -> Result<NeuralAmpModeler, String> {
+    pub fn new() -> Result<NeuralAmpModeler, String> {
         // Used in NeuralAmpModelerPlugin so....
         unsafe { bindings::nam_activations_Activation_enable_fast_tanh(); }
 
         Ok(NeuralAmpModeler {
             model_path: None,
             model: null_mut(),
-            buffer: vec![0.0; buffer_size],
+            buffer: vec![0.0; DEFAULT_BUFFER_SIZE], // default, updated when processing if needed
+            maximum_buffer_size: DEFAULT_BUFFER_SIZE
+        })
+    }
+
+    pub fn new_with_maximum_buffer_size(maximum_buffer_size: usize) -> Result<NeuralAmpModeler, String> {
+        unsafe { bindings::nam_activations_Activation_enable_fast_tanh(); }
+
+        Ok(NeuralAmpModeler {
+            model_path: None,
+            model: null_mut(),
+            buffer: vec![0.0; maximum_buffer_size],
+            maximum_buffer_size
         })
     }
 
     pub fn get_model_path(&self) -> Option<&str> {
         self.model_path.as_ref().map(|s| s.as_str())
+    }
+
+    pub fn get_maximum_buffer_size(&self) -> usize {
+        self.maximum_buffer_size
     }
 
     pub fn set_model(&mut self, model_path: &str) -> Result<(), String> {
@@ -44,6 +63,13 @@ impl NeuralAmpModeler {
             return;
         }
 
+        if buffer.len() > self.maximum_buffer_size {
+            self.maximum_buffer_size = buffer.len();
+            self.reset_and_prewarm_model();
+        }
+
+        self.buffer.resize(buffer.len(), 0.0);
+
         unsafe { bindings::nam_DSP_process(self.model as *mut c_void, buffer.as_mut_ptr(), self.buffer.as_mut_ptr(), buffer.len() as i32); }
         
         buffer.copy_from_slice(&self.buffer[..buffer.len()]);
@@ -63,7 +89,7 @@ impl NeuralAmpModeler {
         }
 
         unsafe {
-            bindings::nam_DSP_Reset(self.model as *mut c_void, self.expected_sample_rate(), self.buffer.len() as i32);
+            bindings::nam_DSP_Reset(self.model as *mut c_void, self.expected_sample_rate(), self.maximum_buffer_size as i32);
             bindings::nam_DSP_prewarm(self.model as *mut c_void);
         };
     }
