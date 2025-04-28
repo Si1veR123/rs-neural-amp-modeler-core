@@ -11,9 +11,6 @@ impl<T: Copy + Default, const N: usize> Default for __BindgenOpaqueArray<T, N> {
     }
 }
 pub const NAM_UNKNOWN_EXPECTED_SAMPLE_RATE: f64 = -1.0;
-pub const NEURAL_AMP_MODELER_DSP_VERSION_MAJOR: u32 = 0;
-pub const NEURAL_AMP_MODELER_DSP_VERSION_MINOR: u32 = 3;
-pub const NEURAL_AMP_MODELER_DSP_VERSION_PATCH: u32 = 0;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct std_pair {

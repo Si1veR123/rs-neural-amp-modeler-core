@@ -12,3 +12,4 @@ path = "src/lib.rs"
 [build-dependencies]
 bindgen = "0.71.1"
 dunce = "1.0.5"
+cc = "1.2.20"
