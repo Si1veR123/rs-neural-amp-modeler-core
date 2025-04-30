@@ -1861,8 +1861,8 @@ unsafe extern "C" {
 #[doc = "@brief default JSON class\n\nThis type is the default specialization of the @ref basic_json class which\nuses the standard template types.\n\n@since version 1.0.0"]
 pub type nlohmann_json = __BindgenOpaqueArray<u64, 2usize>;
 unsafe extern "C" {
-    #[link_name = "\u{1}?get_dsp_from_string_path@@YA?AV?$unique_ptr@VDSP@nam@@U?$default_delete@VDSP@nam@@@std@@@std@@PEBD@Z"]
-    pub fn get_dsp_from_string_path(str_: *const ::std::os::raw::c_char) -> u8;
+    #[link_name = "\u{1}?get_dsp_from_string_path@@YAPEAVDSP@nam@@PEBD@Z"]
+    pub fn get_dsp_from_string_path(str_: *const ::std::os::raw::c_char) -> *mut nam_DSP;
 }
 unsafe extern "C" {
     #[link_name = "\u{1}?get_dsp_expected_sample_rate@@YANPEAVDSP@nam@@@Z"]
@@ -1876,4 +1876,8 @@ unsafe extern "C" {
         output: *mut f32,
         num_frames: ::std::os::raw::c_int,
     );
+}
+unsafe extern "C" {
+    #[link_name = "\u{1}?destroy_dsp@@YAXPEAVDSP@nam@@@Z"]
+    pub fn destroy_dsp(dsp: *mut nam_DSP);
 }

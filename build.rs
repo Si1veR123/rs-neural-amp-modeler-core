@@ -10,8 +10,9 @@ const BLOCK_TYPES: &[&str] = &["pointer", "size_type", "difference_type", "const
 
 fn main() {
     println!("cargo:rerun-if-changed=build.rs");
+    println!("cargo:rerun-if-changed=wrapper.h");
+    println!("cargo:rerun-if-changed=wrapper.cpp");
     println!("cargo:rerun-if-changed=Cargo.lock");
-    println!("cargo:rerun-if-changed=CMakeLists.txt");
 
     // This is the directory where the `c` library is located.
     let libdir_path = canonicalize(PathBuf::from("NeuralAmpModelerCore/")).expect("Couldn't canonicalize path");
@@ -42,7 +43,7 @@ fn main() {
             None
         }
     }).collect::<Vec<_>>();
-
+ 
     // Run cc
     cc::Build::new()
         .files(allowlist.iter())
