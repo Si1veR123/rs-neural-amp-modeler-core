@@ -88,7 +88,6 @@ impl NeuralAmpModeler {
             self.set_maximum_buffer_size(buffer.len());
         }
 
-        println!("Sending pointers: {:?} {:?} {:?}", self.model, buffer.as_mut_ptr(), self.buffer.as_mut_ptr());
         unsafe { bindings::dsp_process(self.model, buffer.as_mut_ptr(), self.buffer.as_mut_ptr(), buffer.len() as i32) };
         
         buffer.copy_from_slice(&self.buffer[..buffer.len()]);

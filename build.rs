@@ -43,7 +43,7 @@ fn main() {
             None
         }
     }).collect::<Vec<_>>();
- 
+
     // Run cc
     cc::Build::new()
         .files(allowlist.iter())
@@ -52,9 +52,11 @@ fn main() {
         .include(libdir_path.join("Dependencies/eigen").to_str().unwrap())
         .include(libdir_path.join("NAM").to_str().unwrap())
         .std("c++20")
+        .flag("-DNAM_SAMPLE_FLOAT")
+        .opt_level(3)
         .out_dir(libdir_path.join("build"))
         .compile("nam_core_static");
-
+ 
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
     // the resulting bindings.
@@ -72,16 +74,15 @@ fn main() {
         // Regex that matches the file name of the header file
         builder = builder.allowlist_file(format!(".*{}\\.h", entry.file_stem().unwrap().to_str().unwrap()));
     }
-
+  
     for opaque in OPAQUE_TYPES {
         builder = builder.opaque_type(opaque);
 
-    }
+    } 
 
     for block in BLOCK_TYPES {
         builder = builder.blocklist_type(block);
-    }
-
+    } 
     let bindings = builder
         // Tell cargo to invalidate the built crate whenever any of the
         // included header files changed.
@@ -95,4 +96,4 @@ fn main() {
     bindings
         .write_to_file("src/bindings.rs")
         .expect("Couldn't write bindings!");
-}
+} 

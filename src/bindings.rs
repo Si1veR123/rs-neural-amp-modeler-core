@@ -475,11 +475,11 @@ unsafe extern "C" {
     pub fn nam_DSP_prewarm(this: *mut ::std::os::raw::c_void);
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?process@DSP@nam@@UEAAXPEAM0H@Z"]
+    #[link_name = "\u{1}?process@DSP@nam@@UEAAXPEAN0H@Z"]
     pub fn nam_DSP_process(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
-        output: *mut f32,
+        input: *mut f64,
+        output: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }
@@ -576,10 +576,10 @@ impl nam_Buffer {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?_update_buffers_@Buffer@nam@@MEAAXPEAMH@Z"]
+    #[link_name = "\u{1}?_update_buffers_@Buffer@nam@@MEAAXPEANH@Z"]
     pub fn nam_Buffer__update_buffers_(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
+        input: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }
@@ -632,11 +632,11 @@ impl nam_Linear {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?process@Linear@nam@@UEAAXPEAM0H@Z"]
+    #[link_name = "\u{1}?process@Linear@nam@@UEAAXPEAN0H@Z"]
     pub fn nam_Linear_process(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
-        output: *mut f32,
+        input: *mut f64,
+        output: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }
@@ -1178,19 +1178,19 @@ impl nam_convnet_ConvNet {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?process@ConvNet@convnet@nam@@UEAAXPEAM0H@Z"]
+    #[link_name = "\u{1}?process@ConvNet@convnet@nam@@UEAAXPEAN0H@Z"]
     pub fn nam_convnet_ConvNet_process(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
-        output: *mut f32,
+        input: *mut f64,
+        output: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?_update_buffers_@ConvNet@convnet@nam@@MEAAXPEAMH@Z"]
+    #[link_name = "\u{1}?_update_buffers_@ConvNet@convnet@nam@@MEAAXPEANH@Z"]
     pub fn nam_convnet_ConvNet__update_buffers_(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
+        input: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }
@@ -1319,11 +1319,11 @@ unsafe extern "C" {
         -> ::std::os::raw::c_int;
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?process@LSTM@lstm@nam@@MEAAXPEAM0H@Z"]
+    #[link_name = "\u{1}?process@LSTM@lstm@nam@@MEAAXPEAN0H@Z"]
     pub fn nam_lstm_LSTM_process(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
-        output: *mut f32,
+        input: *mut f64,
+        output: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }
@@ -1835,11 +1835,11 @@ impl nam_wavenet_WaveNet {
     }
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?process@WaveNet@wavenet@nam@@UEAAXPEAM0H@Z"]
+    #[link_name = "\u{1}?process@WaveNet@wavenet@nam@@UEAAXPEAN0H@Z"]
     pub fn nam_wavenet_WaveNet_process(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
-        output: *mut f32,
+        input: *mut f64,
+        output: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }
@@ -1851,10 +1851,10 @@ unsafe extern "C" {
     );
 }
 unsafe extern "C" {
-    #[link_name = "\u{1}?_set_condition_array@WaveNet@wavenet@nam@@MEAAXPEAMH@Z"]
+    #[link_name = "\u{1}?_set_condition_array@WaveNet@wavenet@nam@@MEAAXPEANH@Z"]
     pub fn nam_wavenet_WaveNet__set_condition_array(
         this: *mut ::std::os::raw::c_void,
-        input: *mut f32,
+        input: *mut f64,
         num_frames: ::std::os::raw::c_int,
     );
 }

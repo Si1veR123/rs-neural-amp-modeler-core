@@ -9,16 +9,14 @@ fn sine_wave(frequency: f32, sample_rate: f32, sample_length: usize, amplitude: 
 }
 
 fn main() {
-    let mut modeler = NeuralAmpModeler::new().unwrap();
+    let mut modeler = NeuralAmpModeler::new_with_maximum_buffer_size(512).unwrap();
     
     modeler.set_model(r"C:\Users\conno\Downloads\Fender Super Reverb 1977\Fender Super Reverb_ EQ Flat, Volume 3, sm57 and AKG 414.nam").expect("Failed to set model");
-    let sine = sine_wave(440.0, 48000.0, 5120000, 10.0);
-    assert_eq!(modeler.get_maximum_buffer_size(), 512);
+    let sine = sine_wave(440.0, 48000.0, 5120000, 1.0);
     println!("Expected Sample Rate: {}", modeler.expected_sample_rate());
-
-    for frame in 0..10000 {
+    modeler.prewarm_model();
+    for frame in 0..100 {
         let mut buffer = sine[frame * 512..(frame + 1) * 512].to_vec();
         modeler.process_buffer(&mut buffer);
-        println!("{:?}", buffer);
     }
 }

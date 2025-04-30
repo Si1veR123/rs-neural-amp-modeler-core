@@ -1,5 +1,3 @@
-#define NAM_SAMPLE_FLOAT
-
 #include "dsp.h"
 #include "activations.h"
 #include "convnet.h"

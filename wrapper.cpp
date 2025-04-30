@@ -32,7 +32,6 @@ double get_dsp_expected_sample_rate(nam::DSP* dsp)
 }
 
 void dsp_process(nam::DSP* dsp, float* input, float* output, int num_frames) {
-    printf("Received pointers %p %p %p\n", dsp, input, output);
     dsp->process(input, output, num_frames);
 }
 
